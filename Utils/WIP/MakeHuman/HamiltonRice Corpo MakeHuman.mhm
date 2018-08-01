@@ -1,0 +1,30 @@
+# Written by MakeHuman 1.1.1
+version v1.1.1
+tags HamiltonRice Corpo MakeHuman
+camera 22.5 34.0 0.0418157110952 0.994908528465 -0.0717713858492 1.1625
+modifier macrodetails-universal/Muscle 0.635000
+modifier macrodetails/African 0.000000
+modifier macrodetails-proportions/BodyProportions 0.500000
+modifier macrodetails/Gender 1.000000
+modifier macrodetails-height/Height 0.540000
+modifier breast/BreastSize 0.000000
+modifier macrodetails/Age 0.817000
+modifier breast/BreastFirmness 0.500000
+modifier macrodetails/Asian 0.000000
+modifier head/head-age-decr|incr -0.302000
+modifier macrodetails/Caucasian 1.000000
+modifier macrodetails-universal/Weight 0.421000
+tongue tongue01 52ad91a3-caad-4e50-8c38-67634e5e789c
+teeth Teeth_Base 0a5ec82a-0d5f-43ce-a765-8f076f95692d
+proxy male1591 d7e4934e-daed-4ad5-a055-18c9cba487dc
+hair short02 c104cd4a-1edc-43f9-8b94-f63345a44638
+eyelashes Eyelashes01 d533836f-13ad-4836-8b65-051108253cd2
+skeleton default_no_toes.mhskel
+eyebrows eyebrow008 79ea307f-a942-40dd-bf50-bbaa41f02034
+eyes Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa
+pose tpose.bvh
+clothesHideFaces True
+skinMaterial skins/old_caucasian_male/old_caucasian_male.mhmat
+material short02 c104cd4a-1edc-43f9-8b94-f63345a44638 short02.mhmat
+material Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa eyes/materials/brown.mhmat
+subdivide False
