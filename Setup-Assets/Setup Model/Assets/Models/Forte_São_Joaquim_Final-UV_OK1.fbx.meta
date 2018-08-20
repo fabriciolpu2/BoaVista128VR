@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: f2e7a6d059225c849960016f70b3c0ad
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: OK_Detalhe_Telhado_Interno
+    100004: OK_Detalhe_Telhado_Padrao_Interno
+    100006: OK_Estrutura_Forte
+    100008: OK_Estrutura_Forte_CASA_Entrada_Interno
+    100010: OK_Estrutura_Forte_CASA_Entrada_OK
+    100012: OK_Estrutura_Forte_Piso_Externo
+    100014: OK_Estrutura_Madeira
+    100016: OK_Externo_Casa_Casinha
+    100018: OK_Interno_Casa
+    100020: OK_Madeiras_Casinha
+    100022: OK_Mastro
+    100024: OK_Piso_Casa_2_Pisos
+    100026: OK_Piso_Central_Externo
+    100028: OK_Telhados
+    400000: //RootNode
+    400002: OK_Detalhe_Telhado_Interno
+    400004: OK_Detalhe_Telhado_Padrao_Interno
+    400006: OK_Estrutura_Forte
+    400008: OK_Estrutura_Forte_CASA_Entrada_Interno
+    400010: OK_Estrutura_Forte_CASA_Entrada_OK
+    400012: OK_Estrutura_Forte_Piso_Externo
+    400014: OK_Estrutura_Madeira
+    400016: OK_Externo_Casa_Casinha
+    400018: OK_Interno_Casa
+    400020: OK_Madeiras_Casinha
+    400022: OK_Mastro
+    400024: OK_Piso_Casa_2_Pisos
+    400026: OK_Piso_Central_Externo
+    400028: OK_Telhados
+    2100000: Piso_Interno
+    2100002: Madeira_Telhado
+    2100004: Telhado
+    2100006: Interno_Casa
+    2100008: Piso_Plataforma
+    2100010: Externo_Casa_Casinha
+    2100012: Piso_pedra
+    2100014: Estrutura_Forte_CASA_Entrada
+    2100016: Estrutura_Forte_CASA_Entrada_Interno
+    2100018: Mastro
+    2100020: Parede_Pedra
+    2300000: OK_Detalhe_Telhado_Interno
+    2300002: OK_Detalhe_Telhado_Padrao_Interno
+    2300004: OK_Estrutura_Forte
+    2300006: OK_Estrutura_Forte_CASA_Entrada_Interno
+    2300008: OK_Estrutura_Forte_CASA_Entrada_OK
+    2300010: OK_Estrutura_Forte_Piso_Externo
+    2300012: OK_Estrutura_Madeira
+    2300014: OK_Externo_Casa_Casinha
+    2300016: OK_Interno_Casa
+    2300018: OK_Madeiras_Casinha
+    2300020: OK_Mastro
+    2300022: OK_Piso_Casa_2_Pisos
+    2300024: OK_Piso_Central_Externo
+    2300026: OK_Telhados
+    3300000: OK_Detalhe_Telhado_Interno
+    3300002: OK_Detalhe_Telhado_Padrao_Interno
+    3300004: OK_Estrutura_Forte
+    3300006: OK_Estrutura_Forte_CASA_Entrada_Interno
+    3300008: OK_Estrutura_Forte_CASA_Entrada_OK
+    3300010: OK_Estrutura_Forte_Piso_Externo
+    3300012: OK_Estrutura_Madeira
+    3300014: OK_Externo_Casa_Casinha
+    3300016: OK_Interno_Casa
+    3300018: OK_Madeiras_Casinha
+    3300020: OK_Mastro
+    3300022: OK_Piso_Casa_2_Pisos
+    3300024: OK_Piso_Central_Externo
+    3300026: OK_Telhados
+    4300000: OK_Piso_Central_Externo
+    4300002: OK_Madeiras_Casinha
+    4300004: OK_Telhados
+    4300006: OK_Estrutura_Madeira
+    4300008: OK_Interno_Casa
+    4300010: OK_Piso_Casa_2_Pisos
+    4300012: OK_Externo_Casa_Casinha
+    4300014: OK_Estrutura_Forte_Piso_Externo
+    4300016: OK_Estrutura_Forte_CASA_Entrada_OK
+    4300018: OK_Estrutura_Forte_CASA_Entrada_Interno
+    4300020: OK_Detalhe_Telhado_Padrao_Interno
+    4300022: OK_Detalhe_Telhado_Interno
+    4300024: OK_Mastro
+    4300026: OK_Estrutura_Forte
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estrutura_Forte_CASA_Entrada
+    second: {fileID: 2100000, guid: 50c89e0b86c826d41b0a25b9990485d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estrutura_Forte_CASA_Entrada_Interno
+    second: {fileID: 2100000, guid: ccbe95f753136574e8ec9f7440f10e26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Externo_Casa_Casinha
+    second: {fileID: 2100000, guid: 4226d701476974643802ff7692149fe1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interno_Casa
+    second: {fileID: 2100000, guid: 8bacd75d5757be842b0f6978ba6cd8a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Madeira_Telhado
+    second: {fileID: 2100000, guid: d4dd5907f010264459615b9ba2b9e8cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mastro
+    second: {fileID: 2100000, guid: 7d57e92dab9ece34493776a3a29e450b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Parede_Pedra
+    second: {fileID: 2100000, guid: d94a8e3c1d778194186258074a9ded64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piso_Interno
+    second: {fileID: 2100000, guid: 59ed6ec4079df4c4ca9180f9ab391f6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piso_Plataforma
+    second: {fileID: 2100000, guid: ccea960fada112342b52bd68f66ed27e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piso_pedra
+    second: {fileID: 2100000, guid: e1f18b8e56c2e2a4b80fd0f2a0749687, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Telhado
+    second: {fileID: 2100000, guid: aecda29b6c26e30459b6f3bc6019bb50, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
