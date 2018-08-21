@@ -1,9 +1,9 @@
-[Ll]ibrary/
+﻿[Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
-Setup-Assets/
+
 Assets/AssetStoreTools*
 
 # Visual Studio cache directory
@@ -37,3 +37,4 @@ sysinfo.txt
 Utils/WIP/WIP - Texturas/Substance/NovaSedeFazenda.zip
 Utils/WIP/WIP - Texturas/Substance/NovaSedeFazenda.zip
 Utils/WIP/WIP - Texturas/Substance/NovaSedeFazenda.zip
+Utils/WIP/WIP - Modelos/Fase 01/Forte São Joaquim/cabanas forte sj.blend
