@@ -1,0 +1,813 @@
+fileFormatVersion: 2
+guid: 8c27b74385128684eb90aedf48a08be3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cabeca
+    100002: CalcaLow
+    100004: Coluna-01
+    100006: Coluna-02
+    100008: Coluna-03
+    100010: D-BRACO-00
+    100012: D-BRACO-01
+    100014: D-BRACO-02
+    100016: D-BRACO-03
+    100018: D-BRACO-04
+    100020: D-BRACO-05
+    100022: D-BRACO-06
+    100024: D-BRACO-07
+    100026: D-BRACO-08
+    100028: D-BRACO-09
+    100030: D-BRACO-10
+    100032: D-BRACO-11
+    100034: D-BRACO-12
+    100036: D-BRACO-13
+    100038: D-Perna-00
+    100040: D-Perna-01
+    100042: D-Perna-02
+    100044: D-Perna-03
+    100046: E-BRACO-00
+    100048: E-BRACO-01
+    100050: E-BRACO-012
+    100052: E-BRACO-013
+    100054: E-BRACO-014
+    100056: E-BRACO-015
+    100058: E-BRACO-02
+    100060: E-BRACO-03
+    100062: E-BRACO-04
+    100064: E-BRACO-06
+    100066: E-BRACO-08
+    100068: E-BRACO-09
+    100070: E-BRACO-10
+    100072: E-BRACO-11
+    100074: E-Perna-00
+    100076: E-Perna-01
+    100078: E-Perna-02
+    100080: E-Perna-03
+    100082: Esqueleto
+    100084: //RootNode
+    100086: Pescoco
+    100088: low-polyMesh
+    100090: Boca
+    100092: Dentes
+    100094: Inacio Lopes
+    100096: Maxilar
+    100098: Olhos
+    100100: Palpebra
+    100102: Palpebra-D
+    100104: Palpebra-E
+    400000: Cabeca
+    400002: CalcaLow
+    400004: Coluna-01
+    400006: Coluna-02
+    400008: Coluna-03
+    400010: D-BRACO-00
+    400012: D-BRACO-01
+    400014: D-BRACO-02
+    400016: D-BRACO-03
+    400018: D-BRACO-04
+    400020: D-BRACO-05
+    400022: D-BRACO-06
+    400024: D-BRACO-07
+    400026: D-BRACO-08
+    400028: D-BRACO-09
+    400030: D-BRACO-10
+    400032: D-BRACO-11
+    400034: D-BRACO-12
+    400036: D-BRACO-13
+    400038: D-Perna-00
+    400040: D-Perna-01
+    400042: D-Perna-02
+    400044: D-Perna-03
+    400046: E-BRACO-00
+    400048: E-BRACO-01
+    400050: E-BRACO-012
+    400052: E-BRACO-013
+    400054: E-BRACO-014
+    400056: E-BRACO-015
+    400058: E-BRACO-02
+    400060: E-BRACO-03
+    400062: E-BRACO-04
+    400064: E-BRACO-06
+    400066: E-BRACO-08
+    400068: E-BRACO-09
+    400070: E-BRACO-10
+    400072: E-BRACO-11
+    400074: E-Perna-00
+    400076: E-Perna-01
+    400078: E-Perna-02
+    400080: E-Perna-03
+    400082: Esqueleto
+    400084: //RootNode
+    400086: Pescoco
+    400088: low-polyMesh
+    400090: Boca
+    400092: Dentes
+    400094: Inacio Lopes
+    400096: Maxilar
+    400098: Olhos
+    400100: Palpebra
+    400102: Palpebra-D
+    400104: Palpebra-E
+    2100000: 03 - Default
+    2100002: low-poly
+    2100004: 'Material #242'
+    2100006: 'Material #243'
+    2100008: 'Material #51'
+    2300000: low-polyMesh
+    3300000: low-polyMesh
+    4300000: CalcaLow
+    4300002: low-polyMesh
+    4300004: Olhos
+    4300006: Inacio Lopes
+    4300008: Dentes
+    9500000: //RootNode
+    13700000: CalcaLow
+    13700002: Dentes
+    13700004: Inacio Lopes
+    13700006: Olhos
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Esqueleto
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: E-Perna-01
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: D-Perna-01
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: E-Perna-02
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: D-Perna-02
+      humanName: RightLowerLeg
+      limit:
+        min: {x: -90, y: 0, z: 0}
+        max: {x: 90, y: 0, z: 79.81132}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 1
+    - boneName: E-Perna-03
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: D-Perna-03
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coluna-01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coluna-02
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: E-BRACO-00
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: -15, z: -5}
+        max: {x: 0, y: 15, z: 15}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 1
+    - boneName: D-BRACO-00
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: -15, z: -5}
+        max: {x: 0, y: 15, z: 15}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 1
+    - boneName: E-BRACO-01
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: D-BRACO-01
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: E-BRACO-02
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: D-BRACO-02
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: E-BRACO-03
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: -40, z: 0}
+        max: {x: 0, y: 40, z: 54.339634}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 1
+    - boneName: D-BRACO-03
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: E-BRACO-04
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: E-BRACO-10
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: E-BRACO-06
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: E-BRACO-11
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: E-BRACO-08
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: E-BRACO-09
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: E-BRACO-012
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: E-BRACO-013
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: E-BRACO-014
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: E-BRACO-015
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: D-BRACO-04
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: D-BRACO-05
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: D-BRACO-08
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: D-BRACO-09
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: D-BRACO-12
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: D-BRACO-13
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: D-BRACO-10
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: D-BRACO-11
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: D-BRACO-06
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: D-BRACO-07
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Coluna-03
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cabeca
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Palpebra-D
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: -20, z: -8}
+        max: {x: 0, y: 20, z: 3}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 1
+    - boneName: Palpebra-E
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: -20, z: -8}
+        max: {x: 0, y: 20, z: 3}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 1
+    - boneName: Maxilar
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: -10, z: -18}
+        max: {x: 0, y: 10, z: 18}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 1
+    - boneName: Pescoco
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Inacio OK(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dentes
+      parentName: Inacio OK(Clone)
+      position: {x: 0.010689385, y: 1.4935924, z: 0.022691457}
+      rotation: {x: 0.010842717, y: 0.70702374, z: 0.010842685, w: 0.7070236}
+      scale: {x: 2.6641, y: 2.6641, z: 2.6641}
+    - name: Esqueleto
+      parentName: Inacio OK(Clone)
+      position: {x: 0.0057714176, y: 0.899391, z: -0.06881139}
+      rotation: {x: -0.00000004994341, y: 0.0000000034363592, z: -0.7169475, w: 0.69712716}
+      scale: {x: 0.5290726, y: 0.5290726, z: 0.5290725}
+    - name: Coluna-01
+      parentName: Esqueleto
+      position: {x: -0.059365757, y: -0.005254815, z: 0.00056576}
+      rotation: {x: -0.0000011916966, y: -0.000000030726422, z: 0.025775198, w: 0.99966776}
+      scale: {x: 1.8901012, y: 1.8901012, z: 1.8901001}
+    - name: Coluna-02
+      parentName: Coluna-01
+      position: {x: -0.12937757, y: 0.000000021195412, z: -0.000000006055832}
+      rotation: {x: -0.0011836688, y: -0.079183094, z: -0.014899915, w: 0.99674803}
+      scale: {x: 0.6828737, y: 0.6828735, z: 0.6828733}
+    - name: Coluna-03
+      parentName: Coluna-02
+      position: {x: -0.23890683, y: -7.56979e-10, z: 0.000000012111664}
+      rotation: {x: 0.000000052538784, y: 0.13239706, z: -0.00000014212924, w: 0.99119675}
+      scale: {x: 2.1001723, y: 2.100173, z: 2.1001732}
+    - name: D-BRACO-00
+      parentName: Coluna-03
+      position: {x: -0.100263454, y: -0.000000012111664, z: -0.003683496}
+      rotation: {x: 0.047640067, y: -0.028717522, z: -0.7786518, w: 0.62498575}
+      scale: {x: 0.6972755, y: 0.6972759, z: 0.69727606}
+    - name: D-BRACO-01
+      parentName: D-BRACO-00
+      position: {x: -0.15441665, y: 0.000000106852696, z: 0.000000020869662}
+      rotation: {x: -0.0008655153, y: -0.0075453203, z: 0.113960296, w: 0.9934563}
+      scale: {x: 0.9999998, y: 1.0000002, z: 0.9999995}
+    - name: D-BRACO-02
+      parentName: D-BRACO-01
+      position: {x: -0.26419565, y: 0.00000068009814, z: 0.00000059609243}
+      rotation: {x: -0.14381737, y: 0.02960198, z: 0.0003957852, w: 0.9891614}
+      scale: {x: 1.3934973, y: 1.3934964, z: 1.393497}
+    - name: D-BRACO-03
+      parentName: D-BRACO-02
+      position: {x: -0.20506588, y: 0.004999598, z: -0.00009399862}
+      rotation: {x: 0.84393865, y: -0.09494017, z: -0.16109203, w: 0.50279546}
+      scale: {x: 0.16533807, y: 0.16533807, z: 0.165338}
+    - name: D-BRACO-04
+      parentName: D-BRACO-03
+      position: {x: -0.1210145, y: 0.18339907, z: -0.058728766}
+      rotation: {x: -0.18312518, y: 0.04604837, z: -0.4259958, w: 0.8848008}
+      scale: {x: 0.5022943, y: 0.5022942, z: 0.50229406}
+    - name: D-BRACO-05
+      parentName: D-BRACO-04
+      position: {x: -0.34851983, y: -0.0000024252122, z: 0.0000035710702}
+      rotation: {x: -0.00000014156096, y: -0.0000001639127, z: 0.14304371, w: 0.9897164}
+      scale: {x: 2.52865, y: 2.5286498, z: 2.5286503}
+    - name: D-BRACO-06
+      parentName: D-BRACO-03
+      position: {x: -0.3531051, y: -0.1433016, z: 0.04389952}
+      rotation: {x: 0.110970214, y: 0.09515222, z: -0.008275929, w: 0.98922354}
+      scale: {x: 0.4647065, y: 0.46470654, z: 0.4647066}
+    - name: D-BRACO-07
+      parentName: D-BRACO-06
+      position: {x: -0.33895016, y: 0.00009443362, z: 0.000032394415}
+      rotation: {x: -0.09405869, y: -0.062204786, z: -0.04389129, w: 0.9926515}
+      scale: {x: 2.3061252, y: 2.3061247, z: 2.306125}
+    - name: D-BRACO-08
+      parentName: D-BRACO-03
+      position: {x: -0.4199351, y: 0.16911876, z: 0.04798748}
+      rotation: {x: -0.18035322, y: 0.05013695, z: -0.08004092, w: 0.97905695}
+      scale: {x: 0.50229424, y: 0.5022942, z: 0.5022942}
+    - name: D-BRACO-09
+      parentName: D-BRACO-08
+      position: {x: -0.34851748, y: 0, z: 0}
+      rotation: {x: 0, y: 0.000000011785864, z: -0, w: 1}
+      scale: {x: 2.5286498, y: 2.52865, z: 2.5286498}
+    - name: D-BRACO-10
+      parentName: D-BRACO-03
+      position: {x: -0.40294093, y: -0.056086272, z: 0.070850044}
+      rotation: {x: -0.0786958, y: 0.0700654, z: -0.01807744, w: 0.99426913}
+      scale: {x: 0.505703, y: 0.5057029, z: 0.50570303}
+    - name: D-BRACO-11
+      parentName: D-BRACO-10
+      position: {x: -0.39904037, y: 0, z: 0}
+      rotation: {x: 0.0000000107946185, y: -2.3304762e-16, z: -0.000000021589239,
+        w: 1}
+      scale: {x: 2.7608497, y: 2.7608497, z: 2.76085}
+    - name: D-BRACO-12
+      parentName: D-BRACO-03
+      position: {x: -0.43878382, y: 0.050760165, z: 0.067890465}
+      rotation: {x: 0.0000043213354, y: 0.0000006519256, z: -0.041256737, w: 0.9991486}
+      scale: {x: 0.5057029, y: 0.505703, z: 0.5057028}
+    - name: D-BRACO-13
+      parentName: D-BRACO-12
+      position: {x: -0.38291886, y: 0, z: 0}
+      rotation: {x: -0.00000004198869, y: -0.0828789, z: -0.00000012865002, w: 0.9965596}
+      scale: {x: 2.867275, y: 2.867275, z: 2.8672752}
+    - name: E-BRACO-00
+      parentName: Coluna-03
+      position: {x: -0.100263454, y: -0.000000012111664, z: -0.003683496}
+      rotation: {x: 0.7826135, y: -0.6200094, z: 0.047884047, w: -0.028486887}
+      scale: {x: -0.6972756, y: -0.69727576, z: -0.69727594}
+    - name: E-BRACO-01
+      parentName: E-BRACO-00
+      position: {x: -0.15441667, y: 0.0000001068527, z: 0.0000000073461215}
+      rotation: {x: 0.051061206, y: -0.0038406956, z: 0.07227229, w: 0.99606967}
+      scale: {x: 0.9999998, y: 1.0000002, z: 0.9999995}
+    - name: E-BRACO-02
+      parentName: E-BRACO-01
+      position: {x: -0.26419488, y: 0.0000004606262, z: 0.00000076065805}
+      rotation: {x: -0.19980104, y: 0.023653865, z: 0.081559904, w: 0.9761496}
+      scale: {x: 1.3934973, y: 1.3934964, z: 1.393497}
+    - name: E-BRACO-03
+      parentName: E-BRACO-02
+      position: {x: -0.20506583, y: 0.004999605, z: -0.00009400128}
+      rotation: {x: 0.8563431, y: -0.040502902, z: -0.069709726, w: 0.51007515}
+      scale: {x: 0.16533807, y: 0.16533807, z: 0.165338}
+    - name: E-BRACO-04
+      parentName: E-BRACO-03
+      position: {x: -0.12101042, y: 0.18340127, z: -0.05872169}
+      rotation: {x: 0.13413681, y: 0.0027121333, z: -0.41548535, w: 0.89965105}
+      scale: {x: 0.5022943, y: 0.5022942, z: 0.50229406}
+    - name: E-BRACO-10
+      parentName: E-BRACO-04
+      position: {x: -0.3485171, y: 0.0000009689331, z: 0}
+      rotation: {x: -0.00000004749545, y: 0.0000000011894445, z: 0.0991537, w: 0.9950722}
+      scale: {x: 2.52865, y: 2.5286498, z: 2.5286503}
+    - name: E-BRACO-06
+      parentName: E-BRACO-03
+      position: {x: -0.41989487, y: 0.169127, z: 0.047976483}
+      rotation: {x: -0.10928564, y: 0.04497009, z: -0.118680716, w: 0.98587495}
+      scale: {x: 0.50229424, y: 0.5022942, z: 0.5022942}
+    - name: E-BRACO-11
+      parentName: E-BRACO-06
+      position: {x: -0.3485171, y: 0.00000038757324, z: 0}
+      rotation: {x: -0.000000023571728, y: -0.000000005892932, z: -0.00000002357173,
+        w: 1}
+      scale: {x: 2.5286498, y: 2.52865, z: 2.5286498}
+    - name: E-BRACO-08
+      parentName: E-BRACO-03
+      position: {x: -0.4387843, y: 0.05076013, z: 0.06788896}
+      rotation: {x: 0.0000040829186, y: 0.00000070966786, z: -0.098163925, w: 0.9951703}
+      scale: {x: 0.5057029, y: 0.505703, z: 0.5057028}
+    - name: E-BRACO-09
+      parentName: E-BRACO-08
+      position: {x: -0.38291907, y: 0.00000038757324, z: 0}
+      rotation: {x: -0.00000003148621, y: -0.08287887, z: -0.00000012777656, w: 0.9965596}
+      scale: {x: 2.867275, y: 2.867275, z: 2.8672752}
+    - name: E-BRACO-012
+      parentName: E-BRACO-03
+      position: {x: -0.38151595, y: -0.0862999, z: 0.08100833}
+      rotation: {x: 0.014233258, y: 0.04666124, z: -0.09151334, w: 0.9946082}
+      scale: {x: 0.50570285, y: 0.5057029, z: 0.50570285}
+    - name: E-BRACO-013
+      parentName: E-BRACO-012
+      position: {x: -0.38291964, y: 0.00000038757324, z: -0.0000007751465}
+      rotation: {x: -0.0000002484807, y: -0.08287884, z: -0.0000004795778, w: 0.9965596}
+      scale: {x: 2.8672738, y: 2.8672767, z: 2.8672752}
+    - name: E-BRACO-014
+      parentName: E-BRACO-03
+      position: {x: -0.32832652, y: -0.14642566, z: 0.08598635}
+      rotation: {x: -0.19107667, y: 0.08635516, z: 0.038699903, w: 0.977003}
+      scale: {x: 0.505703, y: 0.5057031, z: 0.5057029}
+    - name: E-BRACO-015
+      parentName: E-BRACO-014
+      position: {x: -0.38291964, y: 0.00000038757324, z: -0.0000007751465}
+      rotation: {x: -0.004175742, y: -0.21143933, z: -0.08705595, w: 0.97349745}
+      scale: {x: 2.867277, y: 2.8672755, z: 2.8672762}
+    - name: Pescoco
+      parentName: Coluna-03
+      position: {x: -0.09796243, y: -0.0019176458, z: -0.0049218894}
+      rotation: {x: -0.7055701, y: 0.05011913, z: 0.054549314, w: 0.70475763}
+      scale: {x: 0.8994601, y: 0.8994591, z: 0.8994597}
+    - name: Cabeca
+      parentName: Pescoco
+      position: {x: -0.09360669, y: 0.000000072669984, z: -7.5099577e-10}
+      rotation: {x: -0.00000032399, y: -0.000000113161434, z: -0.034910973, w: 0.9993904}
+      scale: {x: 0.8245046, y: 0.824504, z: 0.8245042}
+    - name: Boca
+      parentName: Cabeca
+      position: {x: -0.03283976, y: -0.0022971951, z: 0.000000031949327}
+      rotation: {x: 0.0000017548248, y: -0.000001929615, z: 0.6238362, w: 0.7815552}
+      scale: {x: 0.7232895, y: 0.7232883, z: 0.7232879}
+    - name: Maxilar
+      parentName: Cabeca
+      position: {x: -0.032840632, y: -0.0022972678, z: -0.000000012934412}
+      rotation: {x: 0.0000011702764, y: -0.0000022497854, z: 0.81909066, w: 0.57366407}
+      scale: {x: 0.7792718, y: 0.7792707, z: 0.77927077}
+    - name: Palpebra
+      parentName: Cabeca
+      position: {x: -0.08928796, y: 0.015615883, z: -0.00000009689333}
+      rotation: {x: 0.90821105, y: 0.41851252, z: 0.0000012222881, w: -0.0000018283107}
+      scale: {x: 0.9402221, y: 0.94022, z: 0.9402202}
+    - name: Palpebra-D
+      parentName: Palpebra
+      position: {x: -0.01623927, y: -0.0011217338, z: -0.000000058328432}
+      rotation: {x: 0.90923446, y: -0.37939873, z: 0.15810418, w: 0.06597245}
+      scale: {x: 1.2551969, y: 1.2005099, z: 1.2192785}
+    - name: Palpebra-E
+      parentName: Palpebra
+      position: {x: -0.01623927, y: -0.0011217338, z: -0.000000058328432}
+      rotation: {x: 0.9086768, y: -0.37916583, z: -0.16127871, w: -0.06729744}
+      scale: {x: 1.2551972, y: 1.2005098, z: 1.2192781}
+    - name: D-Perna-00
+      parentName: Esqueleto
+      position: {x: -0.059365757, y: -0.00525483, z: 0.00056576}
+      rotation: {x: 0.0000015951429, y: 0.0000019403583, z: 0.8715812, w: -0.49025115}
+      scale: {x: 1.8901019, y: 1.8901019, z: 1.8901001}
+    - name: D-Perna-01
+      parentName: D-Perna-00
+      position: {x: -0.11517519, y: -0.000000048446655, z: 0}
+      rotation: {x: -0.011981186, y: -0.026705937, z: -0.40915248, w: 0.9119965}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: D-Perna-02
+      parentName: D-Perna-01
+      position: {x: -0.4310449, y: 0.000000048446655, z: 0.000000012111664}
+      rotation: {x: 0.0022382243, y: 0.017043263, z: -0.021457208, w: 0.999622}
+      scale: {x: 0.81155676, y: 0.8115568, z: 0.8115565}
+    - name: D-Perna-03
+      parentName: D-Perna-02
+      position: {x: -0.46014386, y: -0.000000024223327, z: 0}
+      rotation: {x: 0.610345, y: 0.36243093, z: -0.49200785, w: 0.5040348}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
+    - name: E-Perna-00
+      parentName: Esqueleto
+      position: {x: -0.059365757, y: -0.00525483, z: 0.00056576}
+      rotation: {x: 0.8849794, y: -0.4656302, z: 0.0000006502318, w: 0.0000024120543}
+      scale: {x: -1.8901021, y: -1.8901021, z: -1.8901001}
+    - name: E-Perna-01
+      parentName: E-Perna-00
+      position: {x: -0.11517523, y: -0.000000048446655, z: 0}
+      rotation: {x: -0.011981186, y: -0.026705937, z: -0.40915248, w: 0.9119965}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: E-Perna-02
+      parentName: E-Perna-01
+      position: {x: -0.43104506, y: 0.000000048446655, z: 0.000000012111664}
+      rotation: {x: 0.002238225, y: 0.01704326, z: -0.021457205, w: 0.999622}
+      scale: {x: 0.81155676, y: 0.8115568, z: 0.8115565}
+    - name: E-Perna-03
+      parentName: E-Perna-02
+      position: {x: -0.4601438, y: 0, z: 0.000000012111664}
+      rotation: {x: 0.62424475, y: 0.3767791, z: -0.47424823, w: 0.49340123}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
+    - name: Inacio Lopes
+      parentName: Inacio OK(Clone)
+      position: {x: 0.0012334397, y: 0.818211, z: 0.08687936}
+      rotation: {x: -0.00000003774905, y: -0.0000004172325, z: 0.00000023841856, w: 1}
+      scale: {x: 0.3879937, y: 0.3879937, z: 0.3879937}
+    - name: Olhos
+      parentName: Inacio OK(Clone)
+      position: {x: 0.0000063829416, y: 0.0075102006, z: -0.107999995}
+      rotation: {x: 0.00000008146034, y: -0, z: -0, w: 1}
+      scale: {x: 39.024998, y: 39.024998, z: 39.024998}
+    armTwist: 0.484
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.341
+    legStretch: 0.394
+    feetSpacing: 0.606
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
