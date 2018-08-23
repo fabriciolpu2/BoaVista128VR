@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: Cloud_Default
   m_Shader: {fileID: 4800000, guid: 233b91540c0754a64be0c0c30a8ff09f, type: 3}
-  m_ShaderKeywords: USKY_MAPPING_POLAR _MAPPING_LATITUDE_LONGITUDE_LAYOUT
+  m_ShaderKeywords: USKY_MAPPING_RECTANGULAR
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -22,50 +22,17 @@ Material:
         m_Texture: {fileID: 2800000, guid: 3dd82b4324856436cbf8a9ce1e3da8f8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 3dd82b4324856436cbf8a9ce1e3da8f8, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MoonSampler:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OuterSpaceCube:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Tex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - AlphaSaturation: 4.1
-    - Attenuation: 1.33
+    - AlphaSaturation: 2
+    - Attenuation: 0.6
     - Mask: 0
     - RotateAround: 0.2
-    - RotateSpeed: 0.48
-    - SkyColorMultiplier: 0.59
-    - StepSize: 0.0053
-    - SunColorMultiplier: 2.1
-    - USKY_MAPPING: 1
+    - RotateSpeed: 0.2
+    - SkyColorMultiplier: 1.5
+    - StepSize: 0.004
+    - SunColorMultiplier: 4
+    - USKY_MAPPING: 0
     - USKY_MASK: 0
-    - _Exposure: 1
-    - _ImageType: 0
-    - _Layout: 0
-    - _Mapping: 1
-    - _MirrorOnBack: 0
-    - _OuterSpaceIntensity: 0.25
-    - _Rotation: 0
     m_Colors:
-    - ShadeColorFromSky: {r: 0.5803922, g: 0.7019608, b: 0.85882354, a: 1}
-    - ShadeColorFromSun: {r: 0.9810456, g: 0.84771144, b: 0.6607814, a: 1}
-    - _GroundColor: {r: 0.2, g: 0.6, b: 1.4, a: 0}
-    - _MoonOuterCorona: {r: 0.73, g: 0.89, b: 1, a: 1}
-    - _NightHorizonColor: {r: 0.43, g: 0.47, b: 0.5, a: 1}
-    - _NightZenithColor: {r: 0.00532, g: 0.00707, b: 0.001, a: 0}
-    - _SkyMultiplier: {r: 1, g: 4, b: 0.15, a: 0}
-    - _SunDir: {r: 0.321, g: 0.766, b: -0.557, a: 0}
-    - _Tint: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
-    - _betaM: {r: 0.004, g: 0.005, b: 0.006, a: 0}
-    - _betaR: {r: 0.0058, g: 0.0136, b: 0.0331, a: 0}
-    - _colorCorrection: {r: 1, g: 1, b: 0, a: 0}
+    - ShadeColorFromSky: {r: 0.58, g: 0.7, b: 0.86, a: 1}
+    - ShadeColorFromSun: {r: 0.9779594, g: 0.8261078, b: 0.59597045, a: 1}
