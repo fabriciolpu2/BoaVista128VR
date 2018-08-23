@@ -1,0 +1,131 @@
+fileFormatVersion: 2
+guid: 3c94d1a3f8cedb2498f57bad3dcf1436
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: High
+    100004: JanelaInterativa1
+    100006: JanelaInterativa1.001
+    100008: Janelas_Interior
+    100010: LOW
+    100012: ParedeInterior
+    400000: //RootNode
+    400002: High
+    400004: JanelaInterativa1
+    400006: JanelaInterativa1.001
+    400008: Janelas_Interior
+    400010: LOW
+    400012: ParedeInterior
+    2100000: LOW
+    2100002: Telhados
+    2100004: Casa
+    2100006: Janelas.001
+    2100008: Janelas.004
+    2100010: Janelas
+    2100012: Casa.001
+    2100014: Janelas.003
+    2100016: Interior
+    2300000: High
+    2300002: JanelaInterativa1
+    2300004: JanelaInterativa1.001
+    2300006: Janelas_Interior
+    2300008: LOW
+    2300010: ParedeInterior
+    2300012: //RootNode
+    3300000: High
+    3300002: JanelaInterativa1
+    3300004: JanelaInterativa1.001
+    3300006: Janelas_Interior
+    3300008: LOW
+    3300010: ParedeInterior
+    3300012: //RootNode
+    4300000: LOW
+    4300002: High
+    4300004: JanelaInterativa1.001
+    4300006: JanelaInterativa1
+    4300008: Janelas_Interior
+    4300010: ParedeInterior
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

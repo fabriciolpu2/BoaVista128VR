@@ -1,0 +1,133 @@
+uSky 1.1.2 Change Log
+=======================
+
+*********************************************************************************************************
+NOTE:  THIS WILL BE THE LAST VERSION THAT SUPPORT UNITY 4, NEXT UPDATE VERSION WILL SUPPORT UNITY 5 ONLY!
+*********************************************************************************************************
+
+- Changed "Night Zenith Color" color setting to gradient. That give user total control the night sky color from sunset to mid night. 
+Now default night sky color is slightly darker.
+
+- In Unity 5, Reflection of the skybox Outer Space cubemap has been enabled. Especially when user set the "Outer Space intnesity" to very high or apply a bright custom galaxy cubemap that 
+it will be reflected in the reflective materials as expected. 
+
+- Added alternative "Distance Cloud Cheap" shader renders just simple flat shading for the cloud, it has been optimized for mobile usage.
+Known issues: The cloud color get too dark when applied Camera Tonemapping in Gamma Color Space.
+
+- Improved "Distance cloud" material will always stay color correctly in Unity 4 Editor even if it is not in focus.
+
+- Improved automatic detection for color space when the color space has changed. Now all sky settings will get refresh and switch to correct color.
+
+
+
+uSky 1.1.1 Change Log
+=======================
+- Changed the "Sky Tint" color setting to shift wavelenghts range directly instead of multiply the existing sky color. 
+The skybox shader has slightly less calculation. Now the neutral value of "Sky Tint" is grey color (128).
+
+- Added bonus "uSkymap" Renderer for Scrawk's Ocean material ("Ocean BRDF" and "Ocean White Caps"). 
+uSkymap will work in Unity 4 (Pro only) and 5. "uSkymapRenderer" will render and apply the uSkymap RenderTexture to the Ocean Material.
+Note: This update does not include Scrawk's Ocean project and you need to import it and implement it yourself. If you need help, feel free to ask me.
+If you don't need it, feel free to remove "Bonus" folder from your project.
+
+- Distance cloud has own default layerMask at "Layer 18". This setting has not expose in Inspector, but you can change to different layer in the Distancecloud.cs script.
+In Unity 5, you can add a name "cloud" to Layer 18, it allows Reflection Probe camera set the "culling mask" that render the cloud layer only, or no render it.
+
+- Fixed some Skybox shader bugs for better "Oculus Rift" support.
+
+- Removed uSkyManager's Skybox Preview in the inspector. It has no cloud preview, so it seems really useless.
+
+
+
+
+uSky 1.1.0f2 Change Log
+=======================
+- Renamed "Time of day" setting to "Timeline". Avoid naming confusion from other asset package.
+
+- Added "Ambient Gradient" and "Ambient Intensity" that control the RenderSetting Ambient. 
+It can be easily manual predefined Ambient Gradient color for different Timeline.
+In Unity 4, it will show the Light Color gradient only that will be directly use as RenderSetting Ambient,
+This will balance default Light Color (yellowish) and Sky Color (bluish) Ambient lighting even the scene is not using any IBL material.
+In Unity 5, Ambient Gradient will be use as ambient color only if "Ambient Source" set to "Gradient" in Lighting window setting.
+
+At the current Unity 5, only Ambient Gradient seems work well for update the ambient in runtime build.
+ 
+- Introduce a new "DistanceCloud beta". It is a sky cloud renderer on the hemisphere mesh. 
+Implemented two type of texture mapping of your choice: "Rectangular" and "Polar", both methods can be easily switch within the material setting. 
+The cloud color is based on predefined "Light Color" and "Sky color" Ambient Gradient, which not related to skybox color.
+
+In Unity 5 the cloud will automatically render via any reflection probe's camera inside the Editor and Runtime. 
+At the moment, the cloud will not render in skybox reflection (from Lighting window setting).
+So it only affect the object has reflective material in the scene, will not affect the ambient color lighting.
+
+- Removed "Linear Space" setting, now it will automatically detect the color space and skybox will automatically switch to correct color. 
+
+- Removed the "Density Scale" and "Sunset Time Offset" That combined with single "Rayleigh Scattering" setting. 
+It behaves similar to "Atmoshpere Thickness" from the Unity 5 Default-Skybox and behavior now match the description in the documentation.   
+
+- Renamed "Moon Inner Corona Color" to "Moon Inner Corona" and combined "Moon Inner Corona Scale" into the "Moon Inner Corona"s alpha.
+
+- Renamed "Moon Outer Corona Color" to "Moon Outer Corona" and combined "Moon Outer Corona Scale" into the "Moon Outer Corona"s alpha.
+
+- Improved default "Moon Outer Corona Scale" value that now behaves more consistently between Linear/Gamma space and when Tonemapping is using.
+
+- The Sun and Moon Light will auto Enable/Disable when it has no affect to the scene lighting. 
+
+- Since Unity 5 Beta 22 ligthing changed, so uSkyLight changed the default value of sun intensity from 0.5 to 1.0, and default moon intensity from 0.1 to 0.4.
+
+- Changed Color correction of the Skybox in linear space that it uses power of 2.0 now instead of 2.2. Slightly more peformance friently.
+
+- Changed default "Star Intensity" value from 2 to 1, and the default Star flickering speed is little bit slower as well.
+
+- Since Unity 5 fixed the skybox preview with linear color space issue, now preview has been enabled for unity 5.
+
+- Default Sun Size is slightly smaller now.
+
+
+
+uSky 1.0.1 Change Log
+=======================
+- Renamed Component "uSkyRenderer" to "uSkyManager".
+
+- Added "Time Of Day" and "Longitude" sliders to control the full Day/Night cycle of the sun rotation.
+
+- Added new "uSkyLight" script to manage the Sun and Moon lighting in the scene. Single editable "Gradient" to control the full Day/Night cycle of both Sun and Moon light color.
+It included two sliders to control Sun and Moon intensity. 
+
+- Added new Night Sky with "Moon", "Star Field" and "Outer Space Cubemap". Also added new Night Sky Parameters in uSkyManager.
+Included the MilkyWay Cubemap that match up with stars position of "Star Field".
+
+- Now the uSky "Exposure" becomes a global lighting exposure control for day time. It will affect final output of the Sun and Moon intensity with uSkyLight.
+
+- Included the Unity 4 "uSky GUI Demo" scene that same as demo webplayer and included the GUI scripts.
+
+- Combined the "Density Scale" and "Altitude Scale" to single "Density Scale" setting from range 0 to 4. 
+
+- New "Night Zenith Color" will replace the "Sunset Zenith Color" through the night sky cycle. It still will affect on the sunset sky color.
+
+- Changed smaller maxmium value of some sliders range and changed default sun is smaller as well.
+
+- Renamed parameter "Directional Light" to "Sun Light".
+
+- Renamed the end of "Wavelength" with "s" for correct spelling, now it is "Wavelengths".
+
+- Updated the documentation.
+
+
+
+uSky 1.0.0f2 Change Log
+=======================
+- Since Unity 5 beta 13 changed for a big and tessellated sphere mesh. Now some codes of uSky shader allows computing per-vertex based for better performance.
+New update of the uSky shader that approximately run 10 ~ 20% faster. This performance gain is for Unity 5 beta 13 or newer users only, uSky shader for Unity 4 will remain the same.
+
+* Note: Do not use the uSky shader for Unity 5 in Unity 4.x.x. 
+
+- Removed the Directional Light in the Unity 5 uSkyRenderer Prefab. When apply this Prefab, user need to apply the Directional Light manually to uSkyRenderer.
+(When Create or Start a new scene in Unity 5, default always included the Directional Light in the scene. So we removed it from Prefab for less confusion) 
+
+- Small update on the uSkyRenderer.cs, better ground ambient between different color space.
+
+
+uSky 1.0.0e Change Log
+=======================
+- Fixed Wavelength setting : the missing _betaR and _betaM values pass to shader.

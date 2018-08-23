@@ -11,7 +11,7 @@ public class VRLookWalk : MonoBehaviour {
 
     public bool moveForward;
 
-    public CharacterController cc;
+    CharacterController cc;
     
     
     

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e56d2805ad3c4478b9fcadb584e195c2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_skymapMaterial: {fileID: 2100000, guid: ecb4fed18298346a5b9f0401cac96569, type: 2}
+  - m_oceanMaterial: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

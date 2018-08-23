@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: dcbeaeae5e0b59e4e80bb0195c23206c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: JanelaInterativa1
+    100002: JanelaInterativa1.001
+    100004: Janelas_Exterior
+    100006: Janelas_Interior
+    100008: ParedeInterior
+    100010: Porta
+    100012: Porta_Frente
+    100014: //RootNode
+    100016: SedeFazenda
+    100018: Telhado
+    400000: JanelaInterativa1
+    400002: JanelaInterativa1.001
+    400004: Janelas_Exterior
+    400006: Janelas_Interior
+    400008: ParedeInterior
+    400010: Porta
+    400012: Porta_Frente
+    400014: //RootNode
+    400016: SedeFazenda
+    400018: Telhado
+    2100000: Janelas.004
+    2100002: Interior
+    2100004: Janelas.003
+    2100006: Casa.001
+    2100008: Telhados
+    2100010: Janelas.001
+    2100012: Janelas
+    2100014: Casa
+    2300000: JanelaInterativa1
+    2300002: JanelaInterativa1.001
+    2300004: Janelas_Exterior
+    2300006: Janelas_Interior
+    2300008: ParedeInterior
+    2300010: Porta
+    2300012: Porta_Frente
+    2300014: SedeFazenda
+    2300016: Telhado
+    3300000: JanelaInterativa1
+    3300002: JanelaInterativa1.001
+    3300004: Janelas_Exterior
+    3300006: Janelas_Interior
+    3300008: ParedeInterior
+    3300010: Porta
+    3300012: Porta_Frente
+    3300014: SedeFazenda
+    3300016: Telhado
+    4300000: Porta
+    4300002: ParedeInterior
+    4300004: Janelas_Interior
+    4300006: JanelaInterativa1
+    4300008: JanelaInterativa1.001
+    4300010: Telhado
+    4300012: Janelas_Exterior
+    4300014: Porta_Frente
+    4300016: SedeFazenda
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Casa
+    second: {fileID: 2100000, guid: 25d45c0fb09eff34e9d8fbb2fa253419, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Casa.001
+    second: {fileID: 2100000, guid: 10531a87e1e85904ba2d14d9cffdd0a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior
+    second: {fileID: 2100000, guid: 8e39f97a7b8e4f14a99929c6e42ae293, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Janelas
+    second: {fileID: 2100000, guid: 958e2486b42213d4789a0e285f663a74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Janelas.001
+    second: {fileID: 2100000, guid: 8e552738ea96f9143a4f3cd83d13f3d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Janelas.003
+    second: {fileID: 2100000, guid: 1d24f4720cb946c4f97fb59c1cf560bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Janelas.004
+    second: {fileID: 2100000, guid: 4f75711793a4b62499f1204cb3cd84fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Telhados
+    second: {fileID: 2100000, guid: cacb6fd3956278d40b7255f640071983, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

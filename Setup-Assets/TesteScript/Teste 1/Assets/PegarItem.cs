@@ -7,7 +7,7 @@ public class PegarItem : MonoBehaviour
     bool triggerEntered = false;
     Collider balla=null;
     public GameObject myHand;
-    bool inHands = false;
+    public bool inHands = false;
     Vector3 ballPoss;
     Collider ballCol;
     Rigidbody ballRb;
@@ -15,14 +15,7 @@ public class PegarItem : MonoBehaviour
     public Collider OnTriggerEnter(Collider ball)
     {
         Debug.Log("entrou no colisor");
-        if (balla == null)
-        {
-            balla = ball;
-            return null;
-        }
-
-        
-
+        balla = ball;
         triggerEntered = true;
         return null;
     }
@@ -54,7 +47,7 @@ public class PegarItem : MonoBehaviour
                 ballRb.isKinematic = true;
                 ballRb.useGravity = false;
                 balla.transform.SetParent(myHand.transform);
-                balla.transform.localPosition = new Vector3(0f, -0.36f, 0f);
+            //    balla.transform.localPosition = new Vector3(0f, -0.36f, 0f);
                 inHands = true;
 
             }
@@ -67,7 +60,7 @@ public class PegarItem : MonoBehaviour
                 this.GetComponent<PegarItem>().enabled = false;
                 balla.transform.SetParent(null);
                 inHands = false;
-                balla = null;
+
 
             }
 
