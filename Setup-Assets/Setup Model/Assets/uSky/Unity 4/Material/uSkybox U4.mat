@@ -38,7 +38,7 @@ Material:
     - _GroundColor: {r: 0.78951335, g: 1.9520946, b: 4.88289, a: 0}
     - _MoonOuterCorona: {r: 0, g: 0, b: 0, a: 16}
     - _NightHorizonColor: {r: 0, g: 0, b: 0, a: 0}
-    - _NightZenithColor: {r: 0.009294118, g: 0.007019608, b: 0.00047058825, a: 0.0024313724}
+    - _NightZenithColor: {r: 0.008352941, g: 0.005137255, b: 0.004980392, a: 0.0028235295}
     - _SkyMultiplier: {r: 1, g: 4, b: 0, a: 0}
     - _SkyTint: {r: 1, g: 1, b: 1, a: 0}
     - _SunDir: {r: -0, g: 0.2588187, b: 0.96592593, a: 0}
