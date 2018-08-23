@@ -127,7 +127,22 @@ ModelImporter:
     13700004: Inacio Lopes
     13700006: Olhos
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #242'
+    second: {fileID: 2100000, guid: b03eae2be6154ea4e8fb1fd072418e7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #243'
+    second: {fileID: 2100000, guid: 023d049e3fd57e44586ecefe90d16f95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #51'
+    second: {fileID: 2100000, guid: d38ab34c427d44e409ca60cdb234c67b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
