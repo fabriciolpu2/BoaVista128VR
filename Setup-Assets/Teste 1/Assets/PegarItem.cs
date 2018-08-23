@@ -15,6 +15,13 @@ public class PegarItem : MonoBehaviour
     public Collider OnTriggerEnter(Collider ball)
     {
         Debug.Log("entrou no colisor");
+    /*    if (balla == null)
+        {
+          
+            return null;
+        }
+        */
+
         balla = ball;
         triggerEntered = true;
         return null;
@@ -60,7 +67,7 @@ public class PegarItem : MonoBehaviour
                 this.GetComponent<PegarItem>().enabled = false;
                 balla.transform.SetParent(null);
                 inHands = false;
-
+          //      balla = null;
 
             }
 
