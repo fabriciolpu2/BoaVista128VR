@@ -13,6 +13,7 @@ ModelImporter:
     100014: //RootNode
     100016: SedeFazenda
     100018: Telhado
+    100020: LOW
     400000: JanelaInterativa1
     400002: JanelaInterativa1.001
     400004: Janelas_Exterior
@@ -23,6 +24,7 @@ ModelImporter:
     400014: //RootNode
     400016: SedeFazenda
     400018: Telhado
+    400020: LOW
     2100000: Janelas.004
     2100002: Interior
     2100004: Janelas.003
@@ -31,6 +33,8 @@ ModelImporter:
     2100010: Janelas.001
     2100012: Janelas
     2100014: Casa
+    2100016: Telhados.001
+    2100018: LOW
     2300000: JanelaInterativa1
     2300002: JanelaInterativa1.001
     2300004: Janelas_Exterior
@@ -40,6 +44,7 @@ ModelImporter:
     2300012: Porta_Frente
     2300014: SedeFazenda
     2300016: Telhado
+    2300018: LOW
     3300000: JanelaInterativa1
     3300002: JanelaInterativa1.001
     3300004: Janelas_Exterior
@@ -49,6 +54,7 @@ ModelImporter:
     3300012: Porta_Frente
     3300014: SedeFazenda
     3300016: Telhado
+    3300018: LOW
     4300000: Porta
     4300002: ParedeInterior
     4300004: Janelas_Interior
@@ -58,6 +64,7 @@ ModelImporter:
     4300012: Janelas_Exterior
     4300014: Porta_Frente
     4300016: SedeFazenda
+    4300018: LOW
   externalObjects:
   - first:
       type: UnityEngine:Material
