@@ -10,6 +10,7 @@ ModelImporter:
     100008: Janelas_Interior
     100010: LOW
     100012: ParedeInterior
+    100014: LOW.001
     400000: //RootNode
     400002: High
     400004: JanelaInterativa1
@@ -17,6 +18,7 @@ ModelImporter:
     400008: Janelas_Interior
     400010: LOW
     400012: ParedeInterior
+    400014: LOW.001
     2100000: LOW
     2100002: Telhados
     2100004: Casa
@@ -33,6 +35,7 @@ ModelImporter:
     2300008: LOW
     2300010: ParedeInterior
     2300012: //RootNode
+    2300014: LOW.001
     3300000: High
     3300002: JanelaInterativa1
     3300004: JanelaInterativa1.001
@@ -40,13 +43,25 @@ ModelImporter:
     3300008: LOW
     3300010: ParedeInterior
     3300012: //RootNode
+    3300014: LOW.001
     4300000: LOW
     4300002: High
     4300004: JanelaInterativa1.001
     4300006: JanelaInterativa1
     4300008: Janelas_Interior
     4300010: ParedeInterior
-  externalObjects: {}
+    4300012: LOW.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LOW
+    second: {fileID: 2100000, guid: a052fe38b3681814d93d2313847ee0f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Telhados
+    second: {fileID: 2100000, guid: 5640ee80108269444b2efe03e2c3feb9, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -85,7 +100,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
