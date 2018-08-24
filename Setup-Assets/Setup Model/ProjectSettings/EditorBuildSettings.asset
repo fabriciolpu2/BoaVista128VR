@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: "Assets/Scenes/Forte S\xE3o Joaquim.unity"
+    guid: c5bdb8acd602ad24fbdbefdcf785fbf0
   m_configObjects: {}
