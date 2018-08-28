@@ -19,13 +19,14 @@ public class DesligarTrigger : MonoBehaviour {
 
         if (script.inHands == true )
         {
-            ballcol.enabled = false;
+        //    ballcol.isTrigger = true;
             gameObject.layer = 0;
+            
         }
         else 
         {
-            script.enabled = true;
-            ballcol.enabled = true;
+      //      script.enabled = true;
+          //  ballcol.isTrigger = false;
             gameObject.layer = 9;
         }
     }

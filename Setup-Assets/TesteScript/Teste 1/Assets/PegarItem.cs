@@ -6,7 +6,7 @@ public class PegarItem : MonoBehaviour
 {
     public Camera cam;
     bool triggerEntered = false;
-    Collider balla;
+    public Collider balla;
     Collider trig;
     public GameObject myHand;
     public bool inHands = false;
@@ -32,11 +32,16 @@ public class PegarItem : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (!inHands)
+        {
+            balla = null;
+
+        }
         Ray raio = cam.ScreenPointToRay(Input.mousePosition);
         Debug.DrawRay(raio.origin, raio.direction * teste, Color.red);
         RaycastHit impacto;
 
-        if(Physics.Raycast(raio,out impacto,teste, itensPegaveis))
+        if (Physics.Raycast(raio, out impacto, teste, itensPegaveis))
         {
             Debug.DrawRay(raio.origin, raio.direction * teste, Color.red);
             if (impacto.distance <= 1f)
@@ -44,7 +49,7 @@ public class PegarItem : MonoBehaviour
                 balla = impacto.collider;
                 print(impacto.collider);
             }
-            
+
         }
         else
         {
@@ -65,22 +70,21 @@ public class PegarItem : MonoBehaviour
             }
             else if (inHands)
             {
-                
+
                 ballRb.isKinematic = false;
                 ballRb.useGravity = true;
                 balla.transform.SetParent(null);
                 inHands = false;
-                balla = null; 
             }
 
         }
     }
 
+
     void Update()
     {
 
-            //     float distancia = vector3.Distance(tranform.position, Jogador.position);
-           
-        }
-        
+
+
     }
+}
