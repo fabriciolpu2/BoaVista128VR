@@ -4,66 +4,87 @@ using UnityEngine;
 
 public class PegarItem : MonoBehaviour
 {
+    public Camera cam;
     bool triggerEntered = false;
-    Collider balla=null;
+    public Collider balla;
+    Collider trig;
     public GameObject myHand;
     public bool inHands = false;
     Vector3 ballPoss;
     Collider ballCol;
     Rigidbody ballRb;
+    public float teste=100;
+    public LayerMask itensPegaveis ;
 
-    public Collider OnTriggerEnter(Collider ball)
+ /*   public void OnTriggerEnter(Collider ball)
     {
-        Debug.Log("entrou no colisor");
-        balla = ball;
+        trig = ball;
         triggerEntered = true;
-        return null;
-    }
-    public Collider OnTriggerExit(Collider ball)
-    {
-        triggerEntered = false;
-        return null;
-    }
-
-
-    /*  void Start()
-{
-    ballCol = ball.GetComponent <BoxCollider>();
-    ballRb = ball.GetComponent<Rigidbody>();
-    //  cam.GetComponentInChildren<Camera>();    
-}
-*/  // Update is called once per frame
-    void Update()
-    {
   
-        //     float distancia = vector3.Distance(tranform.position, Jogador.position);
-        if (Input.GetButtonDown("Fire1") && triggerEntered)
+    }
+    public void OnTriggerExit(Collider ball)
+    {
+        trig = null;
+        triggerEntered = false;
+    }
+
+    */
+
+    private void FixedUpdate()
+    {
+        if (!inHands)
         {
-         //   ballCol = balla.GetComponent<BoxCollider>();
+            balla = null;
+
+        }
+        Ray raio = cam.ScreenPointToRay(Input.mousePosition);
+        Debug.DrawRay(raio.origin, raio.direction * teste, Color.red);
+        RaycastHit impacto;
+
+        if (Physics.Raycast(raio, out impacto, teste, itensPegaveis))
+        {
+            Debug.DrawRay(raio.origin, raio.direction * teste, Color.red);
+            if (impacto.distance <= 1f)
+            {
+                balla = impacto.collider;
+                print(impacto.collider);
+            }
+
+        }
+        else
+        {
+            Debug.DrawRay(raio.origin, raio.direction * teste, Color.green);
+        }
+
+        if (Input.GetButtonDown("Fire1") && balla != null)
+        {
+
             ballRb = balla.GetComponent<Rigidbody>();
             if (!inHands)
             {
-                //         ballCol.isTrigger = true;
                 ballRb.isKinematic = true;
                 ballRb.useGravity = false;
                 balla.transform.SetParent(myHand.transform);
-            //    balla.transform.localPosition = new Vector3(0f, -0.36f, 0f);
                 inHands = true;
 
             }
             else if (inHands)
             {
-                //       ballCol.isTrigger = false;
-                ballRb.isKinematic = false;
 
+                ballRb.isKinematic = false;
                 ballRb.useGravity = true;
-                this.GetComponent<PegarItem>().enabled = false;
                 balla.transform.SetParent(null);
                 inHands = false;
-
-
             }
 
         }
+    }
+
+
+    void Update()
+    {
+
+
+
     }
 }
