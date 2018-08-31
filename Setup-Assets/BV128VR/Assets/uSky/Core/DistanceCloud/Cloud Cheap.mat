@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Cloud Cheap
+  m_Shader: {fileID: 4800000, guid: e44b5ef5781ee4928bae2d19afdf8996, type: 3}
+  m_ShaderKeywords: USKY_MAPPING_RECTANGULAR
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - CloudSampler:
+        m_Texture: {fileID: 2800000, guid: 3dd82b4324856436cbf8a9ce1e3da8f8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - AlphaSaturation: 2
+    - Attenuation: 0.35
+    - Mask: 0
+    - RotateSpeed: 0.16
+    - SkyColorMultiplier: 1.5
+    - SunColorMultiplier: 3.5
+    - USKY_MAPPING: 0
+    m_Colors:
+    - ShadeColorFromSky: {r: 0.5803922, g: 0.7019608, b: 0.85882354, a: 1}
+    - ShadeColorFromSun: {r: 0.96862745, g: 0.7490196, b: 0.4509804, a: 1}

@@ -20,6 +20,7 @@ ModelImporter:
     100028: FSJ_Telhados
     100030: FSJ_Terreno
     100032: FSJ_Terreno.001
+    100034: Plane
     400000: //RootNode
     400002: FSJ_Detalhe_Telhado_Interno
     400004: FSJ_Detalhe_Telhado_Padrao_Interno
@@ -37,6 +38,7 @@ ModelImporter:
     400028: FSJ_Telhados
     400030: FSJ_Terreno
     400032: FSJ_Terreno.001
+    400034: Plane
     2100000: No Name
     2100002: Piso_Interno
     2100004: Madeira_Telhado
@@ -49,6 +51,8 @@ ModelImporter:
     2100018: Estrutura_Forte_CASA_Entrada_Interno
     2100020: Mastro
     2100022: Parede_Pedra
+    2100024: Distante
+    2100026: TerrenoFSJ
     2300000: FSJ_Detalhe_Telhado_Interno
     2300002: FSJ_Detalhe_Telhado_Padrao_Interno
     2300004: FSJ_Estrutura_Forte
@@ -65,6 +69,8 @@ ModelImporter:
     2300026: FSJ_Telhados
     2300028: FSJ_Terreno
     2300030: FSJ_Terreno.001
+    2300032: Plane
+    2300034: //RootNode
     3300000: FSJ_Detalhe_Telhado_Interno
     3300002: FSJ_Detalhe_Telhado_Padrao_Interno
     3300004: FSJ_Estrutura_Forte
@@ -81,6 +87,8 @@ ModelImporter:
     3300026: FSJ_Telhados
     3300028: FSJ_Terreno
     3300030: FSJ_Terreno.001
+    3300032: Plane
+    3300034: //RootNode
     4300000: FSJ_Terreno.001
     4300002: FSJ_Piso_Central_Externo
     4300004: FSJ_Madeiras_Casinha
@@ -97,6 +105,7 @@ ModelImporter:
     4300026: FSJ_Mastro
     4300028: FSJ_Estrutura_Forte
     4300030: FSJ_Terreno
+    4300032: Plane
   externalObjects: {}
   materials:
     importMaterials: 1

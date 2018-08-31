@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400002}
+  - component: {fileID: 11469182}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: uSky Manager U5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400002}
+  - component: {fileID: 10800000}
+  m_Layer: 0
+  m_Name: Moon light
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: bf1145510dbae4c93ab1fcaabc39b0d7, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400002}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0.9238795, y: -0.00000008817204, z: -0.00000008817204, w: 0.38268346}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400000}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &10800000
+Light:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 0
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Intensity: 0
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c62c070b6bab4a47bf045e4723f6d1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SkyUpdate: 1
+  Timeline: 17
+  Longitude: 0
+  Exposure: 1
+  RayleighScattering: 1
+  MieScattering: 1
+  SunAnisotropyFactor: 0.76
+  SunSize: 1
+  Wavelengths: {x: 680, y: 550, z: 440}
+  SkyTint: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  GroundColor: {r: 0.369, g: 0.349, b: 0.341, a: 1}
+  m_sunLight: {fileID: 0}
+  EnableNightSky: 1
+  NightZenithColor:
+    serializedVersion: 2
+    key0: {r: 0.9843137, g: 0.2627451, b: 0.5137255, a: 0.20784314}
+    key1: {r: 0.9843137, g: 0.2627451, b: 0.5137255, a: 0.20784314}
+    key2: {r: 0.9843137, g: 0.2627451, b: 0.5137255, a: 0.20784314}
+    key3: {r: 0.9843137, g: 0.2627451, b: 0.5137255, a: 0.20784314}
+    key4: {r: 0.9843137, g: 0.2627451, b: 0.5137255, a: 0.20784314}
+    key5: {r: 0.9843137, g: 0.2627451, b: 0.5137255, a: 0.20784314}
+    key6: {r: 0.9843137, g: 0.2627451, b: 0.5137255, a: 0.20784314}
+    key7: {r: 0.9843137, g: 0.2627451, b: 0.5137255, a: 0.20784314}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  NightHorizonColor: {r: 0.43, g: 0.47, b: 0.5, a: 1}
+  StarIntensity: 1
+  OuterSpaceIntensity: 0.25
+  MoonInnerCorona: {r: 1, g: 1, b: 1, a: 0.5}
+  MoonOuterCorona: {r: 0.54, g: 0.66, b: 0.75, a: 0.5}
+  MoonSize: 0.15
+  m_moonLight: {fileID: 100002}
+  SkyboxMaterial: {fileID: 2100000, guid: 365d13da5edb94b1fb213612c6c5c366, type: 2}
+  AutoApplySkybox: 1
+  LinearSpace: 0
+  Tonemapping: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8868ec6b743a240bbbceda788a96532a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SunIntensity: 1
+  LightColor:
+    serializedVersion: 2
+    key0: {r: 0.22352941, g: 0.2627451, b: 0.29803923, a: 1}
+    key1: {r: 0.9607843, g: 0.6, b: 0.14901961, a: 1}
+    key2: {r: 0.9764706, g: 0.8156863, b: 0.5647059, a: 0}
+    key3: {r: 0.9843137, g: 0.87058824, b: 0.7294118, a: 0}
+    key4: {r: 0.9764706, g: 0.8156863, b: 0.5647059, a: 0}
+    key5: {r: 0.9607843, g: 0.6, b: 0.14901961, a: 0}
+    key6: {r: 0.22352941, g: 0.2627451, b: 0.29803923, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 15073
+    ctime1: 17039
+    ctime2: 20971
+    ctime3: 32768
+    ctime4: 44564
+    ctime5: 48496
+    ctime6: 50462
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 7
+    m_NumAlphaKeys: 2
+  EnableMoonLighting: 1
+  MoonIntensity: 0.5
+  AmbientIntensity: 1
+  SkyColor:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+--- !u!114 &11469182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44f9e1d2b7494c2994e135c65ad3c47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloudLayer: 12
+  CloudMaterial: {fileID: 2100000, guid: cb8895afd9d6a40bbb8488ebbb8d40fd, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabAsset: 1

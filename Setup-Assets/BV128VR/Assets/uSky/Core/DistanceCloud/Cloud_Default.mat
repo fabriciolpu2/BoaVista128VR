@@ -35,4 +35,4 @@ Material:
     - USKY_MASK: 0
     m_Colors:
     - ShadeColorFromSky: {r: 0.58, g: 0.7, b: 0.86, a: 1}
-    - ShadeColorFromSun: {r: 0.9779594, g: 0.8261078, b: 0.59597045, a: 1}
+    - ShadeColorFromSun: {r: 0.97814095, g: 0.82737863, b: 0.5997829, a: 1}
