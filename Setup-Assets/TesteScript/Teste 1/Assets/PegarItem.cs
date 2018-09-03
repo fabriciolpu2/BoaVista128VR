@@ -5,51 +5,40 @@ using UnityEngine;
 public class PegarItem : MonoBehaviour
 {
     public Camera cam;
-    bool triggerEntered = false;
+  //  bool triggerEntered = false;
     public Collider balla;
-    Collider trig;
+  //  Collider trig;
     public GameObject myHand;
     public bool inHands = false;
-    Vector3 ballPoss;
-    Collider ballCol;
+  //  Vector3 ballPoss;
+  //  Collider ballCol;
     Rigidbody ballRb;
-    public float teste=100;
+    public float teste=1;
     public LayerMask itensPegaveis ;
 
- /*   public void OnTriggerEnter(Collider ball)
-    {
-        trig = ball;
-        triggerEntered = true;
-  
-    }
-    public void OnTriggerExit(Collider ball)
-    {
-        trig = null;
-        triggerEntered = false;
-    }
 
-    */
 
     private void FixedUpdate()
     {
         if (!inHands)
         {
             balla = null;
-
         }
         Ray raio = cam.ScreenPointToRay(Input.mousePosition);
-        Debug.DrawRay(raio.origin, raio.direction * teste, Color.red);
         RaycastHit impacto;
 
-        if (Physics.Raycast(raio, out impacto, teste, itensPegaveis))
+        if (Physics.Raycast(raio, out impacto, teste ))
         {
             Debug.DrawRay(raio.origin, raio.direction * teste, Color.red);
-            if (impacto.distance <= 1f)
+            if (impacto.distance <= 3f)
             {
-                balla = impacto.collider;
-                print(impacto.collider);
-            }
+                if (impacto.collider.CompareTag("Item"))
+                {
+                    balla = impacto.collider;
 
+                }
+                //print(impacto.collider);
+            }
         }
         else
         {
@@ -58,19 +47,17 @@ public class PegarItem : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1") && balla != null)
         {
-
             ballRb = balla.GetComponent<Rigidbody>();
             if (!inHands)
             {
                 ballRb.isKinematic = true;
                 ballRb.useGravity = false;
                 balla.transform.SetParent(myHand.transform);
+        //        balla.transform.localPosition = new Vector3(0f, -0.36f, 0f);
                 inHands = true;
-
             }
             else if (inHands)
             {
-
                 ballRb.isKinematic = false;
                 ballRb.useGravity = true;
                 balla.transform.SetParent(null);
@@ -80,11 +67,4 @@ public class PegarItem : MonoBehaviour
         }
     }
 
-
-    void Update()
-    {
-
-
-
-    }
 }
