@@ -10,6 +10,7 @@ public class MoverObjeto : MonoBehaviour {
     StatusPlayer script;
     public GameObject player;
 
+
     void Start () {
         posiçãoOBj = GetComponent<Transform>();
         script = player.GetComponent<StatusPlayer>();
@@ -17,27 +18,27 @@ public class MoverObjeto : MonoBehaviour {
 
     }
 
-    // Update is called once per frame
-    void Update () {
-	}
+  
     public void mover()
     {
+        float distancia = Vector3.Distance(posiçãoOBj.transform.position, player.transform.position);
 
-
-        if (!script.inHands)
+        if (distancia < 2.0f)
+        {
+            if (!script.inHands)
             {
                 ballRb.isKinematic = true;
                 ballRb.useGravity = false;
                 posiçãoOBj.transform.SetParent(hands.transform);
-             //   posiçãoOBj.transform.localPosition = new Vector3(0f, -0.36f, 0f);
                 script.inHands = true;
             }
-        else if (script.inHands)
+            else if (script.inHands)
             {
                 ballRb.isKinematic = false;
                 ballRb.useGravity = true;
                 posiçãoOBj.transform.SetParent(null);
                 script.inHands = false;
             }
+        }
     }
 }

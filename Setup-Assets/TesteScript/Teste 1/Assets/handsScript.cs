@@ -31,7 +31,7 @@ public class handsScript : MonoBehaviour
        // obj = teste.CurrentRaycastResult.gameObject.collider;
         if (script.inHands == true)
         {
-            hands.text="Ocupada ";
+            hands.text=" Ocupada ";
 
         }
         else
