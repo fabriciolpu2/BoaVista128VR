@@ -22,6 +22,7 @@ ModelImporter:
     100032: FSJ_Terreno_Distante
     100034: Lateral
     100036: Plane
+    100038: OK_Piso_Central_Externo.001
     400000: //RootNode
     400002: FSJ_Detalhe_Telhado_Interno
     400004: FSJ_Detalhe_Telhado_Padrao_Interno
@@ -41,6 +42,7 @@ ModelImporter:
     400032: FSJ_Terreno_Distante
     400034: Lateral
     400036: Plane
+    400038: OK_Piso_Central_Externo.001
     2100000: EncostadoNoForte
     2100002: Piso_Interno
     2100004: Madeira_Telhado
@@ -59,6 +61,7 @@ ModelImporter:
     2100030: Distante
     2100032: FSJ-TerrenoProxi
     2100034: FSJ-TerrenoDistante
+    2100036: Piso_Interno.001
     2300000: FSJ_Detalhe_Telhado_Interno
     2300002: FSJ_Detalhe_Telhado_Padrao_Interno
     2300004: FSJ_Estrutura_Forte
@@ -77,6 +80,7 @@ ModelImporter:
     2300030: FSJ_Terreno_Distante
     2300032: Lateral
     2300034: Plane
+    2300036: OK_Piso_Central_Externo.001
     3300000: FSJ_Detalhe_Telhado_Interno
     3300002: FSJ_Detalhe_Telhado_Padrao_Interno
     3300004: FSJ_Estrutura_Forte
@@ -95,6 +99,7 @@ ModelImporter:
     3300030: FSJ_Terreno_Distante
     3300032: Lateral
     3300034: Plane
+    3300036: OK_Piso_Central_Externo.001
     4300000: Lateral
     4300002: FSJ_Piso_Central_Externo
     4300004: FSJ_Madeiras_Casinha
@@ -113,6 +118,7 @@ ModelImporter:
     4300030: Plane
     4300032: FSJ_Terreno.001
     4300034: FSJ_Terreno_Distante
+    4300036: OK_Piso_Central_Externo.001
   externalObjects:
   - first:
       type: UnityEngine:Material
