@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f33c462ac1a2ef9449aebfe9af448c37
+guid: b9d40f7a52818a042ab9b456070d75a6
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -18,9 +18,10 @@ ModelImporter:
     100024: FSJ_Piso_Casa_2_Pisos
     100026: FSJ_Piso_Central_Externo
     100028: FSJ_Telhados
-    100030: FSJ_Terreno
-    100032: FSJ_Terreno.001
-    100034: Plane
+    100030: FSJ_Terreno.001
+    100032: FSJ_Terreno_Distante
+    100034: Lateral
+    100036: Plane
     400000: //RootNode
     400002: FSJ_Detalhe_Telhado_Interno
     400004: FSJ_Detalhe_Telhado_Padrao_Interno
@@ -36,10 +37,11 @@ ModelImporter:
     400024: FSJ_Piso_Casa_2_Pisos
     400026: FSJ_Piso_Central_Externo
     400028: FSJ_Telhados
-    400030: FSJ_Terreno
-    400032: FSJ_Terreno.001
-    400034: Plane
-    2100000: No Name
+    400030: FSJ_Terreno.001
+    400032: FSJ_Terreno_Distante
+    400034: Lateral
+    400036: Plane
+    2100000: EncostadoNoForte
     2100002: Piso_Interno
     2100004: Madeira_Telhado
     2100006: Telhado
@@ -51,8 +53,12 @@ ModelImporter:
     2100018: Estrutura_Forte_CASA_Entrada_Interno
     2100020: Mastro
     2100022: Parede_Pedra
-    2100024: Distante
-    2100026: TerrenoFSJ
+    2100024: No Name
+    2100026: Material
+    2100028: Material.001
+    2100030: Distante
+    2100032: FSJ-TerrenoProxi
+    2100034: FSJ-TerrenoDistante
     2300000: FSJ_Detalhe_Telhado_Interno
     2300002: FSJ_Detalhe_Telhado_Padrao_Interno
     2300004: FSJ_Estrutura_Forte
@@ -67,10 +73,10 @@ ModelImporter:
     2300022: FSJ_Piso_Casa_2_Pisos
     2300024: FSJ_Piso_Central_Externo
     2300026: FSJ_Telhados
-    2300028: FSJ_Terreno
-    2300030: FSJ_Terreno.001
-    2300032: Plane
-    2300034: //RootNode
+    2300028: FSJ_Terreno.001
+    2300030: FSJ_Terreno_Distante
+    2300032: Lateral
+    2300034: Plane
     3300000: FSJ_Detalhe_Telhado_Interno
     3300002: FSJ_Detalhe_Telhado_Padrao_Interno
     3300004: FSJ_Estrutura_Forte
@@ -85,11 +91,11 @@ ModelImporter:
     3300022: FSJ_Piso_Casa_2_Pisos
     3300024: FSJ_Piso_Central_Externo
     3300026: FSJ_Telhados
-    3300028: FSJ_Terreno
-    3300030: FSJ_Terreno.001
-    3300032: Plane
-    3300034: //RootNode
-    4300000: FSJ_Terreno.001
+    3300028: FSJ_Terreno.001
+    3300030: FSJ_Terreno_Distante
+    3300032: Lateral
+    3300034: Plane
+    4300000: Lateral
     4300002: FSJ_Piso_Central_Externo
     4300004: FSJ_Madeiras_Casinha
     4300006: FSJ_Telhados
@@ -104,9 +110,85 @@ ModelImporter:
     4300024: FSJ_Detalhe_Telhado_Interno
     4300026: FSJ_Mastro
     4300028: FSJ_Estrutura_Forte
-    4300030: FSJ_Terreno
-    4300032: Plane
-  externalObjects: {}
+    4300030: Plane
+    4300032: FSJ_Terreno.001
+    4300034: FSJ_Terreno_Distante
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Distante
+    second: {fileID: 2100000, guid: 51834e4ac72151048aac17a9b89daff9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EncostadoNoForte
+    second: {fileID: 2100000, guid: 6e10d0ebe2377e54fa2e8b843d0f6a6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estrutura_Forte_CASA_Entrada
+    second: {fileID: 2100000, guid: 50c89e0b86c826d41b0a25b9990485d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Estrutura_Forte_CASA_Entrada_Interno
+    second: {fileID: 2100000, guid: ccbe95f753136574e8ec9f7440f10e26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Externo_Casa_Casinha
+    second: {fileID: 2100000, guid: 4226d701476974643802ff7692149fe1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FSJ-TerrenoDistante
+    second: {fileID: 2100000, guid: f923d7fe5f9f7be4e8071a987afd0cc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FSJ-TerrenoProxi
+    second: {fileID: 2100000, guid: e43ec0f64b392e642b0e6f84d114a17b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interno_Casa
+    second: {fileID: 2100000, guid: 8bacd75d5757be842b0f6978ba6cd8a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Madeira_Telhado
+    second: {fileID: 2100000, guid: d4dd5907f010264459615b9ba2b9e8cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mastro
+    second: {fileID: 2100000, guid: 7d57e92dab9ece34493776a3a29e450b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Parede_Pedra
+    second: {fileID: 2100000, guid: d94a8e3c1d778194186258074a9ded64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piso_Interno
+    second: {fileID: 2100000, guid: 59ed6ec4079df4c4ca9180f9ab391f6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piso_Plataforma
+    second: {fileID: 2100000, guid: ccea960fada112342b52bd68f66ed27e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piso_pedra
+    second: {fileID: 2100000, guid: e1f18b8e56c2e2a4b80fd0f2a0749687, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Telhado
+    second: {fileID: 2100000, guid: fa9c3a2ccf040f74b91547284187c7c4, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
