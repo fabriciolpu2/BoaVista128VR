@@ -23,6 +23,8 @@ ModelImporter:
     100034: Lateral
     100036: Plane
     100038: OK_Piso_Central_Externo.001
+    100040: FSJ_Piso_Central_Externo.001
+    100042: Background
     400000: //RootNode
     400002: FSJ_Detalhe_Telhado_Interno
     400004: FSJ_Detalhe_Telhado_Padrao_Interno
@@ -43,6 +45,8 @@ ModelImporter:
     400034: Lateral
     400036: Plane
     400038: OK_Piso_Central_Externo.001
+    400040: FSJ_Piso_Central_Externo.001
+    400042: Background
     2100000: EncostadoNoForte
     2100002: Piso_Interno
     2100004: Madeira_Telhado
@@ -62,6 +66,7 @@ ModelImporter:
     2100032: FSJ-TerrenoProxi
     2100034: FSJ-TerrenoDistante
     2100036: Piso_Interno.001
+    2100038: Piso_Interno.002
     2300000: FSJ_Detalhe_Telhado_Interno
     2300002: FSJ_Detalhe_Telhado_Padrao_Interno
     2300004: FSJ_Estrutura_Forte
@@ -81,6 +86,8 @@ ModelImporter:
     2300032: Lateral
     2300034: Plane
     2300036: OK_Piso_Central_Externo.001
+    2300038: FSJ_Piso_Central_Externo.001
+    2300040: Background
     3300000: FSJ_Detalhe_Telhado_Interno
     3300002: FSJ_Detalhe_Telhado_Padrao_Interno
     3300004: FSJ_Estrutura_Forte
@@ -100,6 +107,8 @@ ModelImporter:
     3300032: Lateral
     3300034: Plane
     3300036: OK_Piso_Central_Externo.001
+    3300038: FSJ_Piso_Central_Externo.001
+    3300040: Background
     4300000: Lateral
     4300002: FSJ_Piso_Central_Externo
     4300004: FSJ_Madeiras_Casinha
@@ -119,6 +128,8 @@ ModelImporter:
     4300032: FSJ_Terreno.001
     4300034: FSJ_Terreno_Distante
     4300036: OK_Piso_Central_Externo.001
+    4300038: FSJ_Piso_Central_Externo.001
+    4300040: Background
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -170,6 +181,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Mastro
     second: {fileID: 2100000, guid: 7d57e92dab9ece34493776a3a29e450b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 16304789c3dc2c94c8f664f1f06f4dd1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

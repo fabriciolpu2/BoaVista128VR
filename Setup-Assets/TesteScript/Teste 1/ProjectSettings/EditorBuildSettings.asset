@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/teste Cardboard 2.1.unity
-    guid: fb4fed872b144644baac57e5715b4028
+    path: Assets/Scenes/teste Cardboard 2.2.unity
+    guid: 32b5c4fac9800de4e9ff0b890d480c66
   m_configObjects: {}

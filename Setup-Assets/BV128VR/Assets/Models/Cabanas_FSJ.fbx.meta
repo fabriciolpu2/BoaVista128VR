@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 3e5e3752423b39743bdbfc5af549908b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Vila_FSJ_Madeiras
+    100004: Vila_FSJ_Madeiras.001
+    100006: Vila_FSJ_Madeiras.002
+    100008: Vila_FSJ_Madeiras.003
+    100010: Vila_FSJ_Madeiras.004
+    100012: Vila_FSJ_Telhado
+    100014: Vila_FSJ_Telhado.001
+    100016: Vila_FSJ_Telhado.002
+    100018: Vila_FSJ_Telhado.003
+    100020: Vila_FSJ_Telhado.004
+    100022: Vila_FSJ_01_Casa
+    100024: Vila_FSJ_01_Telhado
+    100026: Vila_FSJ_02_Casa
+    100028: Vila_FSJ_02_Telhado
+    100030: Vila_FSJ_03_Casa
+    100032: Vila_FSJ_03_Telhado
+    100034: Vila_FSJ_04_Casa
+    100036: Vila_FSJ_04_Telhado
+    100038: Vila_FSJ_05_Casa
+    100040: Vila_FSJ_05_Telhado
+    400000: //RootNode
+    400002: Vila_FSJ_Madeiras
+    400004: Vila_FSJ_Madeiras.001
+    400006: Vila_FSJ_Madeiras.002
+    400008: Vila_FSJ_Madeiras.003
+    400010: Vila_FSJ_Madeiras.004
+    400012: Vila_FSJ_Telhado
+    400014: Vila_FSJ_Telhado.001
+    400016: Vila_FSJ_Telhado.002
+    400018: Vila_FSJ_Telhado.003
+    400020: Vila_FSJ_Telhado.004
+    400022: Vila_FSJ_01_Casa
+    400024: Vila_FSJ_01_Telhado
+    400026: Vila_FSJ_02_Casa
+    400028: Vila_FSJ_02_Telhado
+    400030: Vila_FSJ_03_Casa
+    400032: Vila_FSJ_03_Telhado
+    400034: Vila_FSJ_04_Casa
+    400036: Vila_FSJ_04_Telhado
+    400038: Vila_FSJ_05_Casa
+    400040: Vila_FSJ_05_Telhado
+    2100000: Vila_FSJ_Telhado
+    2100002: Vila_FSJ_Madeira
+    2300000: Vila_FSJ_Madeiras
+    2300002: Vila_FSJ_Madeiras.001
+    2300004: Vila_FSJ_Madeiras.002
+    2300006: Vila_FSJ_Madeiras.003
+    2300008: Vila_FSJ_Madeiras.004
+    2300010: Vila_FSJ_Telhado
+    2300012: Vila_FSJ_Telhado.001
+    2300014: Vila_FSJ_Telhado.002
+    2300016: Vila_FSJ_Telhado.003
+    2300018: Vila_FSJ_Telhado.004
+    2300020: Vila_FSJ_01_Casa
+    2300022: Vila_FSJ_01_Telhado
+    2300024: Vila_FSJ_02_Casa
+    2300026: Vila_FSJ_02_Telhado
+    2300028: Vila_FSJ_03_Casa
+    2300030: Vila_FSJ_03_Telhado
+    2300032: Vila_FSJ_04_Casa
+    2300034: Vila_FSJ_04_Telhado
+    2300036: Vila_FSJ_05_Casa
+    2300038: Vila_FSJ_05_Telhado
+    3300000: Vila_FSJ_Madeiras
+    3300002: Vila_FSJ_Madeiras.001
+    3300004: Vila_FSJ_Madeiras.002
+    3300006: Vila_FSJ_Madeiras.003
+    3300008: Vila_FSJ_Madeiras.004
+    3300010: Vila_FSJ_Telhado
+    3300012: Vila_FSJ_Telhado.001
+    3300014: Vila_FSJ_Telhado.002
+    3300016: Vila_FSJ_Telhado.003
+    3300018: Vila_FSJ_Telhado.004
+    3300020: Vila_FSJ_01_Casa
+    3300022: Vila_FSJ_01_Telhado
+    3300024: Vila_FSJ_02_Casa
+    3300026: Vila_FSJ_02_Telhado
+    3300028: Vila_FSJ_03_Casa
+    3300030: Vila_FSJ_03_Telhado
+    3300032: Vila_FSJ_04_Casa
+    3300034: Vila_FSJ_04_Telhado
+    3300036: Vila_FSJ_05_Casa
+    3300038: Vila_FSJ_05_Telhado
+    4300000: Vila_FSJ_Telhado.004
+    4300002: Vila_FSJ_Telhado.003
+    4300004: Vila_FSJ_Telhado.002
+    4300006: Vila_FSJ_Telhado.001
+    4300008: Vila_FSJ_Madeiras.004
+    4300010: Vila_FSJ_Madeiras.003
+    4300012: Vila_FSJ_Madeiras.002
+    4300014: Vila_FSJ_Madeiras.001
+    4300016: Vila_FSJ_Madeiras
+    4300018: Vila_FSJ_Telhado
+    4300020: Vila_FSJ_01_Telhado
+    4300022: Vila_FSJ_02_Telhado
+    4300024: Vila_FSJ_04_Telhado
+    4300026: Vila_FSJ_05_Telhado
+    4300028: Vila_FSJ_05_Casa
+    4300030: Vila_FSJ_04_Casa
+    4300032: Vila_FSJ_03_Casa
+    4300034: Vila_FSJ_01_Casa
+    4300036: Vila_FSJ_02_Casa
+    4300038: Vila_FSJ_03_Telhado
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
