@@ -2129,6 +2129,7 @@ GameObject:
   - component: {fileID: 1379918728}
   - component: {fileID: 1379918727}
   - component: {fileID: 1379918726}
+  - component: {fileID: 1379918725}
   - component: {fileID: 1379918724}
   - component: {fileID: 1379918723}
   m_Layer: 0
@@ -2180,6 +2181,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 329264940}
+--- !u!114 &1379918725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1379918722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!54 &1379918726
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2202,11 +2216,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1379918722}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 10.60637}
-  m_Center: {x: -1.07241816e-17, y: 0, z: -0.025509566}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1379918728
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2620,6 +2634,7 @@ GameObject:
   - component: {fileID: 1685010288}
   - component: {fileID: 1685010287}
   - component: {fileID: 1685010292}
+  - component: {fileID: 1685010293}
   - component: {fileID: 1685010286}
   - component: {fileID: 1685010291}
   m_Layer: 0
@@ -2648,11 +2663,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1685010285}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 5.901176}
-  m_Center: {x: 1.3298603e-16, y: 0, z: 0.35382724}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1685010288
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2753,6 +2768,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1685010293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1685010285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1 &1796532669 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100084, guid: 8c27b74385128684eb90aedf48a08be3,
