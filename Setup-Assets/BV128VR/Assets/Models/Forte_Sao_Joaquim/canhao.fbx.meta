@@ -25,9 +25,24 @@ ModelImporter:
     4300002: Canhao_LOD1
     4300004: Canhao_LOD0
     20500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Canhao
+    second: {fileID: 2100000, guid: 15a2bf27ce9405a4fa5f69d948576160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Canhao.002
+    second: {fileID: 2100000, guid: 15a2bf27ce9405a4fa5f69d948576160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Canhao.004
+    second: {fileID: 2100000, guid: 15a2bf27ce9405a4fa5f69d948576160, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
