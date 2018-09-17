@@ -13,13 +13,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   k_AssetVersion: 3
   m_MaxPixelLights: 4
-  m_SupportsVertexLight: 0
+  m_SupportsVertexLight: 1
   m_RequireDepthTexture: 0
   m_RequireSoftParticles: 0
   m_RequireOpaqueTexture: 0
   m_OpaqueDownsampling: 1
   m_SupportsHDR: 0
-  m_MSAA: 2
+  m_MSAA: 1
   m_RenderScale: 1
   m_SupportsDynamicBatching: 1
   m_DirectionalShadowsSupported: 1

@@ -88,6 +88,7 @@ ModelImporter:
     2300036: OK_Piso_Central_Externo.001
     2300038: FSJ_Piso_Central_Externo.001
     2300040: Background
+    2300042: //RootNode
     3300000: FSJ_Detalhe_Telhado_Interno
     3300002: FSJ_Detalhe_Telhado_Padrao_Interno
     3300004: FSJ_Estrutura_Forte
@@ -109,6 +110,7 @@ ModelImporter:
     3300036: OK_Piso_Central_Externo.001
     3300038: FSJ_Piso_Central_Externo.001
     3300040: Background
+    3300042: //RootNode
     4300000: Lateral
     4300002: FSJ_Piso_Central_Externo
     4300004: FSJ_Madeiras_Casinha
