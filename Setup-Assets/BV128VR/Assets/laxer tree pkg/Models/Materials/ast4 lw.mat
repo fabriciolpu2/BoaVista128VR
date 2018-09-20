@@ -46,7 +46,7 @@ Material:
     - _BaseLight: 0.5
     - _Blend: 0
     - _Cull: 2
-    - _Cutoff: 0.34285715
+    - _Cutoff: 0.45
     - _DstBlend: 10
     - _Occlusion: 0.35714287
     - _SampleGI: 0
@@ -58,7 +58,7 @@ Material:
     - _TranslucencyViewDependency: 0.4142857
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 0.6226415, g: 0.606999, b: 0.5550908, a: 1}
+    - _Color: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _Scale: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 0}
