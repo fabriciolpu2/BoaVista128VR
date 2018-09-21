@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4064526548046788}
   - component: {fileID: 33023201980803088}
   - component: {fileID: 23643643241803886}
+  - component: {fileID: 64178553839895882}
   m_Layer: 0
   m_Name: Canhao_LOD0
   m_TagString: Untagged
@@ -54,6 +55,7 @@ GameObject:
   - component: {fileID: 4770384044380448}
   - component: {fileID: 33657391187775786}
   - component: {fileID: 23750166270476044}
+  - component: {fileID: 65935663399729948}
   m_Layer: 0
   m_Name: Canhao_LOD1
   m_TagString: Untagged
@@ -71,6 +73,7 @@ GameObject:
   - component: {fileID: 4190697671135516}
   - component: {fileID: 33833367432681884}
   - component: {fileID: 23293072633166850}
+  - component: {fileID: 65852607695108032}
   m_Layer: 0
   m_Name: Canhao_LOD2
   m_TagString: Untagged
@@ -111,7 +114,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1614862891201118}
   m_LocalRotation: {x: -0.03246659, y: -0.81286323, z: 0.045520082, w: -0.57976484}
-  m_LocalPosition: {x: -22.792, y: 4.89, z: 10.369}
+  m_LocalPosition: {x: -20.63, y: 4.89, z: 16.56}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children:
   - {fileID: 4064526548046788}
@@ -259,6 +262,44 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1912580524664238}
   m_Mesh: {fileID: 4300000, guid: f46f8caa63f1a4d4cbc17964c53bbd7b, type: 3}
+--- !u!64 &64178553839895882
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1417066106148372}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300004, guid: f46f8caa63f1a4d4cbc17964c53bbd7b, type: 3}
+--- !u!65 &65852607695108032
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1912580524664238}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5273466, y: 0.9851359, z: 2.213037}
+  m_Center: {x: -0.017766997, y: 0.04171042, z: -0.074778035}
+--- !u!65 &65935663399729948
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1862266329038834}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5273467, y: 0.9832287, z: 2.2324934}
+  m_Center: {x: -0.017766975, y: 0.042664036, z: -0.084506355}
 --- !u!205 &205683290902172762
 LODGroup:
   m_ObjectHideFlags: 1
@@ -271,11 +312,11 @@ LODGroup:
   m_FadeMode: 0
   m_AnimateCrossFading: 0
   m_LODs:
-  - screenRelativeHeight: 0.48651794
+  - screenRelativeHeight: 0.6506626
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 23643643241803886}
-  - screenRelativeHeight: 0.26401177
+  - screenRelativeHeight: 0.2046756
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 23750166270476044}
