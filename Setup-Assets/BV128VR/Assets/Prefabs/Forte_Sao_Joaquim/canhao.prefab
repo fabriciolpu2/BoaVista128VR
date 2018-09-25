@@ -27,7 +27,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 4294967294
   m_IsActive: 1
 --- !u!1 &1614862891201118
 GameObject:
@@ -61,7 +61,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 4294967294
   m_IsActive: 1
 --- !u!1 &1912580524664238
 GameObject:
@@ -79,7 +79,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 4294967294
   m_IsActive: 1
 --- !u!4 &4064526548046788
 Transform:
@@ -113,8 +113,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1614862891201118}
-  m_LocalRotation: {x: -0.03246659, y: -0.81286323, z: 0.045520082, w: -0.57976484}
-  m_LocalPosition: {x: -20.63, y: 4.89, z: 16.56}
+  m_LocalRotation: {x: 0.0007168725, y: 0.18741009, z: -0.0045249634, w: 0.98227113}
+  m_LocalPosition: {x: 1.758, y: 4.779, z: -1.113}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children:
   - {fileID: 4064526548046788}
@@ -122,7 +122,7 @@ Transform:
   - {fileID: 4190697671135516}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 6.4100003, y: -250.996, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.178, y: 21.603, z: -0.49400002}
 --- !u!4 &4770384044380448
 Transform:
   m_ObjectHideFlags: 1
@@ -144,7 +144,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1912580524664238}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -179,7 +179,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1417066106148372}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -214,7 +214,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1862266329038834}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -312,7 +312,7 @@ LODGroup:
   m_FadeMode: 0
   m_AnimateCrossFading: 0
   m_LODs:
-  - screenRelativeHeight: 0.6506626
+  - screenRelativeHeight: 0.39804035
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 23643643241803886}
