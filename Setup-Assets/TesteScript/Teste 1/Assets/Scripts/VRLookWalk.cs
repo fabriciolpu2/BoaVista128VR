@@ -22,7 +22,7 @@ public class VRLookWalk : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		 if(VrCamera.eulerAngles.x>=toggleAngre && VrCamera.eulerAngles.x< 90.0f)
+		 if(VrCamera.eulerAngles.x>=toggleAngre && VrCamera.eulerAngles.x< 35.0f)
         {
             moveForward = true;
         }
