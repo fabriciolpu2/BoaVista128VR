@@ -13,7 +13,7 @@ public class QuestBegin : MonoBehaviour
     public GameObject objTexto1;
     public GameObject objTexto2;
     float timer = 0.0f;
-
+    //
 
 
     void Start()
