@@ -1,7 +1,7 @@
 # Written by MakeHuman 1.2.0 Alpha3
 version v1.2.0
 name npc2
-camera 0.0 0.0 -0.145264855455 0.934886104162 -1.0 2.362500000000001
+camera 358.0 23.5 -0.145264855455 0.934886104162 -1.0 2.362500000000001
 modifier head/head-age-decr|incr -0.142000
 modifier head/head-fat-decr|incr -0.102000
 modifier head/head-triangular 0.068000
@@ -13,28 +13,20 @@ modifier breast/BreastSize 0.646000
 modifier breast/BreastFirmness 0.544000
 modifier breast/breast-trans-down|up -0.074000
 modifier breast/breast-volume-vert-down|up 0.102000
-modifier macrodetails/Gender 0.184000
+modifier macrodetails/Gender 0.000000
 modifier macrodetails/Age 0.463000
 modifier macrodetails/African 0.251500
 modifier macrodetails/Asian 0.251500
 modifier macrodetails/Caucasian 0.497000
 modifier macrodetails-universal/Muscle 0.578000
-modifier macrodetails-universal/Weight 0.551000
-modifier macrodetails-height/Height 0.517000
+modifier macrodetails-universal/Weight 0.347000
+modifier macrodetails-height/Height 0.537000
 modifier macrodetails-proportions/BodyProportions 0.429000
-tongue tongue01 52ad91a3-caad-4e50-8c38-67634e5e789c
-teeth Teeth_Base 0a5ec82a-0d5f-43ce-a765-8f076f95692d
-proxy female_generic 84b1a384-1af0-4126-9030-222edb78b318
+proxy female1605 e7cb8171-845e-42b0-a109-e6e8c8a61f9d
 hair ponytail01 44e0340e-c7a6-4d22-814c-0632968d2dde
-eyelashes Eyelashes01 d533836f-13ad-4836-8b65-051108253cd2
-eyebrows eyebrow002 a4e73c2f-3a12-47c8-b706-31a68cac6907
 eyes Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa
 clothesHideFaces True
 skinMaterial skins/middleage_caucasian_female/middleage_caucasian_female.mhmat
 material ponytail01 44e0340e-c7a6-4d22-814c-0632968d2dde ponytail01.mhmat
 material Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa eyes/materials/brown.mhmat
-material eyebrow002 a4e73c2f-3a12-47c8-b706-31a68cac6907 eyebrow002.mhmat
-material Eyelashes01 d533836f-13ad-4836-8b65-051108253cd2 eyelashes01.mhmat
-material Teeth_Base 0a5ec82a-0d5f-43ce-a765-8f076f95692d teeth/materials/teeth.mhmat
-material tongue01 52ad91a3-caad-4e50-8c38-67634e5e789c tongue01.mhmat
 subdivide False

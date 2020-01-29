@@ -14,7 +14,7 @@ modifier armslegs/r-hand-fingers-length-decr|incr 0.062000
 modifier armslegs/r-hand-trans-in|out 0.034000
 modifier breast/BreastSize 0.500000
 modifier breast/BreastFirmness 0.500000
-modifier macrodetails/Gender 0.054000
+modifier macrodetails/Gender 0.000000
 modifier macrodetails/Age 0.259000
 modifier macrodetails/African 0.374000
 modifier macrodetails/Asian 0.334378
@@ -25,7 +25,7 @@ modifier macrodetails-height/Height 0.500000
 modifier macrodetails-proportions/BodyProportions 0.469000
 tongue tongue01 52ad91a3-caad-4e50-8c38-67634e5e789c
 teeth Teeth_Base 0a5ec82a-0d5f-43ce-a765-8f076f95692d
-proxy female_generic 84b1a384-1af0-4126-9030-222edb78b318
+proxy female1605 e7cb8171-845e-42b0-a109-e6e8c8a61f9d
 hair Braid01 eead6f99-d6c6-4f6b-b6c2-210459d7a62e
 eyelashes Eyelashes01 d533836f-13ad-4836-8b65-051108253cd2
 eyebrows eyebrow005 9da0aea6-fdf3-4862-baa4-0d122074179a
