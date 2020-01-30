@@ -1,7 +1,7 @@
 # Written by MakeHuman 1.2.0 Alpha3
 version v1.2.0
 name npc4
-camera 0.0 0.0 0.0625979667143 0.906729999869 0.106501042761 1.712499999999999
+camera 0.0 0.0 0.0625979667143 0.906729999869 0.106501042761 3.3374999999999986
 modifier head/head-diamond 0.093000
 modifier torso/torso-scale-depth-decr|incr 0.086000
 modifier torso/torso-trans-down|up 0.086000
@@ -19,17 +19,11 @@ modifier macrodetails-universal/Muscle 0.586000
 modifier macrodetails-universal/Weight 0.469000
 modifier macrodetails-height/Height 0.578000
 modifier macrodetails-proportions/BodyProportions 0.558000
-tongue tongue01 52ad91a3-caad-4e50-8c38-67634e5e789c
-teeth Teeth_Base 0a5ec82a-0d5f-43ce-a765-8f076f95692d
-proxy male1591 d7e4934e-daed-4ad5-a055-18c9cba487dc
+proxy female1605 e7cb8171-845e-42b0-a109-e6e8c8a61f9d
 hair short01 766436e9-63ed-4f6a-afa9-99f3acff70a8
-eyebrows eyebrow012 1c16325c-7831-4166-831a-05c5b609c219
 eyes Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa
 clothesHideFaces True
 skinMaterial skins/middleage_asian_male/middleage_asian_male.mhmat
 material short01 766436e9-63ed-4f6a-afa9-99f3acff70a8 short01.mhmat
 material Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa eyes/materials/brown.mhmat
-material eyebrow012 1c16325c-7831-4166-831a-05c5b609c219 eyebrow012.mhmat
-material Teeth_Base 0a5ec82a-0d5f-43ce-a765-8f076f95692d teeth/materials/teeth.mhmat
-material tongue01 52ad91a3-caad-4e50-8c38-67634e5e789c tongue01.mhmat
 subdivide False

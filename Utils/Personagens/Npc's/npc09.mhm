@@ -1,7 +1,7 @@
 # Written by MakeHuman 1.2.0 Alpha3
 version v1.2.0
 name npc9
-camera 9.5 11.0 -0.0124062703017 0.952013480586 0.141099012911 2.950000000000005
+camera 0.0 0.0 -0.045519690172 0.989135284399 -0.0490809073535553 3.600000000000005
 modifier mouth/mouth-laugh-lines-in|out -0.116000
 modifier mouth/mouth-lowerlip-volume-decr|incr 0.606000
 modifier breast/BreastSize 0.605000
@@ -15,19 +15,11 @@ modifier macrodetails-universal/Muscle 0.782000
 modifier macrodetails-universal/Weight 0.306000
 modifier macrodetails-height/Height 0.558000
 modifier macrodetails-proportions/BodyProportions 0.510000
-tongue tongue01 52ad91a3-caad-4e50-8c38-67634e5e789c
-teeth Teeth_Base 0a5ec82a-0d5f-43ce-a765-8f076f95692d
 proxy female1605 e7cb8171-845e-42b0-a109-e6e8c8a61f9d
 hair Braid01 eead6f99-d6c6-4f6b-b6c2-210459d7a62e
-eyelashes Eyelashes01 d533836f-13ad-4836-8b65-051108253cd2
-eyebrows eyebrow001 9c81ec3a-faa5-4c94-9cdb-992300ba3084
 eyes Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa
 clothesHideFaces True
 skinMaterial skins/middleage_caucasian_male/middleage_caucasian_male.mhmat
 material Braid01 eead6f99-d6c6-4f6b-b6c2-210459d7a62e braid01.mhmat
 material Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa eyes/materials/brown.mhmat
-material eyebrow001 9c81ec3a-faa5-4c94-9cdb-992300ba3084 eyebrow001.mhmat
-material Eyelashes01 d533836f-13ad-4836-8b65-051108253cd2 eyelashes01.mhmat
-material Teeth_Base 0a5ec82a-0d5f-43ce-a765-8f076f95692d teeth/materials/teeth.mhmat
-material tongue01 52ad91a3-caad-4e50-8c38-67634e5e789c tongue01.mhmat
 subdivide False

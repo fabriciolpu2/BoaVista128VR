@@ -1,7 +1,7 @@
 # Written by MakeHuman 1.2.0 Alpha3
 version v1.2.0
 name npc2
-camera 358.0 23.5 -0.145264855455 0.934886104162 -1.0 2.362500000000001
+camera 8.0 29.0 -0.150415363162 0.878238664766 -0.349869618981 4.3125
 modifier head/head-age-decr|incr -0.142000
 modifier head/head-fat-decr|incr -0.102000
 modifier head/head-triangular 0.068000
