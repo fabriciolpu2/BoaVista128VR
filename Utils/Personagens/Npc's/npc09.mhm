@@ -1,7 +1,7 @@
 # Written by MakeHuman 1.2.0 Alpha3
 version v1.2.0
 name npc9
-camera 0.0 0.0 -0.045519690172 0.989135284399 -0.0490809073535553 3.600000000000005
+camera 0.0 0.0 -0.045519690172 0.989135284399 -0.0490809073535553 3.6000000000000045
 modifier mouth/mouth-laugh-lines-in|out -0.116000
 modifier mouth/mouth-lowerlip-volume-decr|incr 0.606000
 modifier breast/BreastSize 0.605000
@@ -12,14 +12,14 @@ modifier macrodetails/African 0.156500
 modifier macrodetails/Asian 0.687000
 modifier macrodetails/Caucasian 0.156500
 modifier macrodetails-universal/Muscle 0.782000
-modifier macrodetails-universal/Weight 0.306000
+modifier macrodetails-universal/Weight 0.435000
 modifier macrodetails-height/Height 0.558000
-modifier macrodetails-proportions/BodyProportions 0.510000
+modifier macrodetails-proportions/BodyProportions 0.659000
 proxy female1605 e7cb8171-845e-42b0-a109-e6e8c8a61f9d
 hair Braid01 eead6f99-d6c6-4f6b-b6c2-210459d7a62e
 eyes Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa
 clothesHideFaces True
-skinMaterial skins/middleage_caucasian_male/middleage_caucasian_male.mhmat
+skinMaterial skins/middleage_asian_male/middleage_asian_male.mhmat
 material Braid01 eead6f99-d6c6-4f6b-b6c2-210459d7a62e braid01.mhmat
 material Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa eyes/materials/brown.mhmat
 subdivide False

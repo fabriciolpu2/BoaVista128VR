@@ -1,0 +1,25 @@
+# Written by MakeHuman 1.2.0 Alpha3
+version v1.2.0
+name npc13
+camera 0.0 0.0 0.0598704361359 0.904595283671 -0.227437195242 3.3375000000000026
+modifier head/head-age-decr|incr 0.478000
+modifier head/head-fat-decr|incr 0.760000
+modifier breast/BreastSize 0.500000
+modifier breast/BreastFirmness 0.500000
+modifier macrodetails/Gender 1.000000
+modifier macrodetails/Age 0.619000
+modifier macrodetails/African 0.707000
+modifier macrodetails/Asian 0.146500
+modifier macrodetails/Caucasian 0.146500
+modifier macrodetails-universal/Muscle 0.265000
+modifier macrodetails-universal/Weight 1.000000
+modifier macrodetails-height/Height 0.408000
+modifier macrodetails-proportions/BodyProportions 0.500000
+proxy male1591 d7e4934e-daed-4ad5-a055-18c9cba487dc
+hair afro01 59627022-32e9-4126-9cf1-036d4b9335fc
+eyes Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa
+clothesHideFaces True
+skinMaterial skins/old_african_male/old_african_male.mhmat
+material afro01 59627022-32e9-4126-9cf1-036d4b9335fc afro01.mhmat
+material Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa eyes/materials/brown.mhmat
+subdivide False
